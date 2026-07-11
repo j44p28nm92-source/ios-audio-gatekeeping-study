@@ -2,7 +2,7 @@
 
 We start with a listing of AUv3 AudioUnit apps.
 
-### Background: A problem arises when an increasing number of mechanisms disrupt the free market for niche products (in this case, the iOS audio market) in a variety of ways. This ranges from (more or less) incomplete offerings to active market manipulation by self-proclaimed experts and questionable communities.
+### Background: A problem arises when an increasing number of mechanisms disrupt the free market for niche products (in this case, the iOS audio market) in a variety of ways. This ranges from (more or less) incomplete listings to active market manipulation by self-proclaimed experts and questionable, interest-driven communities.
 
 ### An Initial Search for ‚AUv3’
 
