@@ -4,7 +4,7 @@
 Remarks: Since these listings are currently generated offline for better indexing by search engines, please note that the actual availability of the displayed items may change; new apps are added to the Apple App Store daily, and others disappear again.
 
 #
-### Search Result for ( ‘Reverb’ )
+# Listings
 
 [Search Result for ( ‘Reverb’ )](./reverb.md)
 
