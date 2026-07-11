@@ -19,3 +19,9 @@ We start with a listing of AUv3 AudioUnit apps.
 
 [Search Term Listing Index](./listings/index.md)
 
+
+### Listings Of FREE AudioUnite
+Note: Many of the apps listed as "FREE" may contain in-app purchases.
+
+[Search Term Listing Index](./listings/free.md)
+
