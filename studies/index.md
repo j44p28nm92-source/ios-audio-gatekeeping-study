@@ -1,4 +1,3 @@
-#
 # ios-audio-gatekeeping-study
 
 # STUDIES
