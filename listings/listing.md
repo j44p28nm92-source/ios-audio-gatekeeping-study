@@ -1,5 +1,12 @@
+#
 # AUv3 (iOS/macOS) Search for ‚AUv3'
 
+Here is a compilation of a list for available audio apps ( category MUSIC / 6011 ) in the App Store. The list should be as complete as possible, but unfortunately, due to Apple’s opaque and artificially limited search APIs, this cannot be 100% guaranteed.
+
+Special attention is paid to apps and audio units that are particularly affected by several kinds of **GATEKEEPING**. The search term combinations used are shown in parentheses.
+
+#
+# LISTING
 This extract was created with AudioApp Researcher Pro - 2026-07-11 06:16:03 +0000.
 
 | Icon | App Name | Price | AppStore Link |
