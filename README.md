@@ -8,9 +8,9 @@ We start with a listing of AUv3 AudioUnit apps.
 
 This extract was created with AudioApp Researcher Pro - 2026-07-11 06:16:03 +0000.
 
-(Note: The list is sorted by the date of the last update or release. Please be aware that due to Apple's inadequate search API, it is not easy or even safe to compile a complete list of available AudioUnits. This is part of the issue encountered.)  
+(Note: The list is sorted by the date of the last update or release. Please be aware that due to Apple's inadequate search API, it is not easy or even safe to compile a complete list of available AudioUnits. This is part of the issue encountered. We are therefore striving to develop a method for listing these niche apps as completely and independently as possible. )  
 
-  
+#
 
 | Icon | App Name | Price | AppStore Link |
 | --- | --- | --- | --- |
