@@ -4,10 +4,13 @@ We start with a listing of AUv3 AudioUnit apps.
 
 Background: A problem arises when an increasing number of mechanisms disrupt the free market for niche products (in this case, the iOS audio market) in a variety of ways. This ranges from (more or less) incomplete offerings to active market manipulation by self-proclaimed experts and questionable communities.
 
-### An Initial Search for ‚AUv3'
+### An Initial Search for ‚AUv3’
 
 This extract was created with AudioApp Researcher Pro - 2026-07-11 06:16:03 +0000.
-Note: The list is sorted by the latest update or release date. Please note that due to Apple's insufficient search API, it is not easy to create a complete list of available AudioUnits.
+
+(Note: The list is sorted by the date of the last update or release. Please be aware that due to Apple's inadequate search API, it is not easy or even safe to compile a complete list of available AudioUnits. This is part of the issue encountered.)  
+
+  
 
 | Icon | App Name | Price | AppStore Link |
 | --- | --- | --- | --- |
