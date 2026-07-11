@@ -1,4 +1,10 @@
-# LISTING
+#
+# AUv3 Audio Units & Audio Apps Listing
+
+Remarks: Since these listings are currently generated offline for better indexing by search engines, please note that the actual availability of the displayed items may change; new apps are added to the Apple App Store daily, and others disappear again.
+
+#
+# LISTINGS
 
 - [Search For 'Ableton Link'](./Ableton%20Link.md)
 - [Search For 'Acoustic'](./Acoustic.md)
@@ -152,3 +158,14 @@
 - [Search For 'Wavetable'](./Wavetable.md)
 - [Search For 'Workstation'](./Workstation.md)
 - [Search For 'YAMAHA'](./YAMAHA.md)
+
+#
+### Legal Notice
+
+This data extract is for informational purposes only. All product information, including but not limited to app names, developer names, prices, and icon graphics, is sourced directly from the official Apple iTunes/App Store API.
+
+- **Data Ownership:** All intellectual property rights, trademarks, and copyrights relating to the listed apps, trademarks, and visuals belong to Apple Inc. or their respective developers.
+
+- **Information Currentness:** This document represents a snapshot of publicly available data at the time of its creation. Prices and availability are subject to change by the developers or Apple at any time without notice.
+
+- **Affiliation:** This tool (“AudioApp Researcher Pro”) is an independent software application and is not affiliated with, endorsed, or otherwise officially associated with Apple Inc.
