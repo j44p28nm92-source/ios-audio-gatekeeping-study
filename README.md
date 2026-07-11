@@ -7,6 +7,7 @@ Background: A problem arises when an increasing number of mechanisms disrupt the
 ### An Initial Search for ‚AUv3'
 
 This extract was created with AudioApp Researcher Pro - 2026-07-11 06:16:03 +0000.
+Note: The list is sorted by the latest update or release date. Please note that due to Apple's insufficient search API, it is not easy to create a complete list of available AudioUnits.
 
 | Icon | App Name | Price | AppStore Link |
 | --- | --- | --- | --- |
