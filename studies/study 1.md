@@ -162,21 +162,21 @@ To ensure the scientific transparency and reproducibility of this study, the dig
 ### 1. **Primary Forum Investigated (Platform Owner):**
 
 -   *Platform:* Audiobus & Loopy Pro Forum
--   *URL:* (removed)
+-   *URL:* (removed, no support for them)
 -   *Owner/Lead Developer:* Michael Tyson (A Tasty Pixel)
 -   *Function in the Study:* Analyzed in Chapter 4.1 as a “Proprietary Support Forum”.
     
 ### 2. **Niche Catalog Investigated:**
 
 -   *Platform:* The Beat Community
--   *URL:* (removed)
+-   *URL:* (removed, no support for them)
 -   *Responsible Actor:* Ali Ahmed
 -   *Function in the Study:* Analyzed in Chapter 4.2 as a “Specialized Niche Catalog”.
     
 ### 3. **Social Media Infrastructure Examined:**
 
 -   *Platform:* iOS Music Producers (Facebook group / X channel)
--   *URL:* (removed)
+-   *URL:* (removed, no support for them)
 -   *Administrator/Operator:* Pseudonym “NinoBeats”
 -   *Function in the Study:* Analyzed in Chapter 4.2 as a “Closed Social Media Monopoly”.
 
@@ -187,7 +187,8 @@ To ensure the scientific transparency and reproducibility of this study, the dig
 -   *Developer:* Fred Anton Corvest (FAC)
 -   *Data Source:* User-based submissions according to the official Privacy Policy (“User content: We collect the unknown audio units you voluntarily submit via AUBE”).
 
-### 5. **Untersuchte App-basierte Preis-Tracking-Struktur (AppRaven):**
-- *App-Name: AppRaven: Apps Gone Free
+### 5. **App-based price tracking structure examined (AppRaven):**
+
+- *App name: AppRaven: Apps Gone Free
 - *URL: (removed)
-- *Funktion in der Studie: Analysiert in Kapitel 5 und 7 hinsichtlich manipulativer UI-Konditionierung (Rote Preismarkierung) .
+- *Function in the study: Analyzed in Chapters 5 and 7 regarding manipulative UI conditioning (red price marking).
