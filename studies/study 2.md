@@ -33,6 +33,7 @@ Economic Damage Coefficient:
 
 Instead of creating added value for the market, these actors extract capital from the ecosystem. Developers who refuse to cooperate suffer massive revenue losses due to targeted, business-damaging framing, while cooperating developers (“favorite developers”) essentially have to cede a portion of their margin to the gurus to stay in business.
 
+### Screenshot of the Forum Thread
 ![image](./study%202.png)
 
 ## 3\. Methodology and Data Basis
