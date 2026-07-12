@@ -29,7 +29,7 @@ Note: Many of the apps listed as "FREE" may contain in-app purchases.
 # APPS
 
 ### AudioApp Researcher RT
-Release in preparation
+(release in preparation)
 
 ![image](./AudioApp%20Researcher%20RT.png)
 
