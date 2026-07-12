@@ -1,6 +1,6 @@
 # The Layman Cartel: Inverse Gatekeeping and Informal Market Regulation in Digital Niche Markets
 
-### A Case Study Using the Release of “Mochizuki” (iceWorks) in the Loopy Pro Forum
+### A Case Study Using the Release of “Mochizuki” (iceWorks) inside the Loopy Pro Forum
 
 ## Introduction and Problem Statement
 
