@@ -26,4 +26,4 @@ Note: Many of the apps listed as "FREE" may contain in-app purchases.
 [FREE AudioUnit Apps](./listings/free.md)
 
 
-![image](./AudioApp Researcher RT.png)
+![image](./AudioApp%20Researcher%20RT.png)
