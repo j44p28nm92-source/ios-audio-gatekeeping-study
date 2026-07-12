@@ -13,4 +13,4 @@ Keywords: Shadow Market Governance, Inverse Gatekeeping, Expertise-Simulation, D
 
 #
 
-[Study 1: The AudioApp & AUv3 Gatekeeper Report: Structural Market Distortion, Psychological Price Manipulation, and Informational Monopolies in the iOS Audio Ecosystem](./study%201.md)
+[Study 1: The AudioApp & AUv3 Gatekeeper Report](./study%201.md)
