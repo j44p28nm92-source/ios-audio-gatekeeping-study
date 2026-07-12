@@ -186,7 +186,7 @@ Social identity theory and "cyber tribalism" (Tajfel & Turner, 1979): The forum 
 
 #
 
-Supplement to Chapter 2 / Addendum:
+# Supplement to Chapter 2 / Addendum:
 The Value Inversion of the Attention Economy
 
 ## The Illusion of "Value Creation" Through Content Generation
@@ -201,7 +201,7 @@ The economic justification: From this belief, the pseudo-expert derives the mora
 
 #
 
-Supplement to Chapter 5: 
+# Supplement to Chapter 5: 
 The Actor Matrix (The Janus-Faced Paradox)
 
 ## The Janus Face of the Pseudo-Expert: Professional Masquerade vs. Destructive Forum Justice
