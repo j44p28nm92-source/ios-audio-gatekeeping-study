@@ -38,4 +38,4 @@ This Mac app has two main functions. It's based on Apple's official iTunes Searc
 
 For example, you can first search for a global term like 'Reverb', click 'Search', and then search for 'Room' within the results.
 
-( Note: The listings here on the site were generated with AudioApp Researcher PRO )
+( Note: The listings here on the site were generated with AudioApp Researcher PRO. )
