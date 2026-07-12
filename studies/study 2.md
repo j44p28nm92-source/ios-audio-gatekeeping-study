@@ -186,7 +186,7 @@ Social identity theory and "cyber tribalism" (Tajfel & Turner, 1979): The forum 
 
 #
 
-# Supplement to Chapter 2 / Addendum:
+# Supplement to Chapter 2:
 The Value Inversion of the Attention Economy
 
 ## The Illusion of "Value Creation" Through Content Generation
