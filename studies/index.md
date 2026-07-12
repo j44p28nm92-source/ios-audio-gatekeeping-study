@@ -13,8 +13,8 @@ Abstract: This paper explores the dark side of niche digital platforms, where so
 Keywords: Shadow Market Governance, Inverse Gatekeeping, Expertise-Simulation, Dunning-Kruger Effect, Toxic Digital Bubbles, Niche Market Regulation.
 
 # ADDENDUM:
-## [The Layman Cartel](./study%202addendum.md)
+## [TO: The Layman Cartel](./study%202addendum.md)
+
 
 #
-
 [Study 0: The AudioApp & AUv3 Gatekeeper Report](./study%201.md)
