@@ -154,7 +154,9 @@ In practice, this means that developers in niche markets must build strategic re
 
 # Supplements
 
-### Supplement to Chapter 2: Theoretical Framework
+#
+
+Supplement to Chapter 2: Theoretical Framework
 
 ## 2.2 The Dunning-Kruger Effect as a Basis for Legitimizing Pseudo-Expertise
 
@@ -164,7 +166,9 @@ The “Mount Stupid” of the forum gurus: Since influencers like Gavinski or ad
 
 Aggressive Certainty of Judgment: This fundamental lack of knowledge paradoxically leads to absolute, fearless certainty of judgment. The gurus act as a kind of "software police" because, due to their lack of expertise, they believe software development is trivial and that their own design preferences constitute universal market laws.
 
-### Supplement to Chapter 5: Psychological and Behavioral Analysis
+#
+
+Supplement to Chapter 5: Psychological and Behavioral Analysis
 
 ## 5.2 Scientific Models of Group Dynamics in Toxic Online Bubbles
 
