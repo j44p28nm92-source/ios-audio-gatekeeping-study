@@ -4,7 +4,8 @@
 
 ### At the moment we are reworking the studies.
 
-## [NEW STUDY: The Layman Cartel: Inverse Gatekeeping and Informal Market Regulation in Digital Niche Markets](./study%202.md)
+# NEW STUDY: 
+## [The Layman Cartel: Inverse Gatekeeping and Informal Market Regulation in Digital Niche Markets](./study%202.md)
 
 #
 
