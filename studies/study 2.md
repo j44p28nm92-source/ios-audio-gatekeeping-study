@@ -8,6 +8,8 @@ In global, digital software markets (such as the Apple App Store), the tradition
 
 Using the case study of the synthesizer release “Mochizuki” by developer iceWorks in the Loopy Pro Forum, this paper demonstrates how a self-appointed elite of laypeople and micro-influencers systematically attempts to hijack market regulation and gatekeeping. This example is merely illustrative; the effect can be observed there almost daily.
 
+![image](./study%202.png)
+
 ## 2\. Theoretical Framework: Inverse Gatekeeping by Lay Actors
 
 Traditional gatekeeping (Lewin, 1947; White, 1950) describes the filtering of information by qualified experts. In the digital niche space under investigation, this process is reversed (inverse gatekeeping):
