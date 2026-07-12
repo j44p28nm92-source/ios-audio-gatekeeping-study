@@ -151,3 +151,30 @@ A key factor in the persistence of this dynamic is the behavior of the forum ope
 This case study shows that digital niche markets are extremely vulnerable to informal, illegitimate market regulation by amateur cartels. Under the guise of consumer protection and “technical analysis,” a repressive system is established that threatens the economic existence of independent indie developers.
 
 In practice, this means that developers in niche markets must build strategic resilience against forum framing, as the success of a product in these spaces depends less on technical excellence than on submission to informal power structures.
+
+# Supplements
+
+### Supplement to Chapter 2: Theoretical Framework
+
+## 2.2 The Dunning-Kruger Effect as a Basis for Legitimizing Pseudo-Expertise
+
+The market regulation by laypeople taking place in the forum is psychologically based on the Dunning-Kruger effect (Kruger & Dunning, 1999). This cognitive phenomenon states that incompetent individuals systematically overestimate their own knowledge, while they cannot recognize the actual competence of experts (in this case: university-educated software engineers and experienced developers). [1, 2]
+
+The “Mount Stupid” of the forum gurus: Since influencers like Gavinski or administrators like NinoBeats have no formal training in signal processing, programming architecture, or digital design, they lack the cognitive meta-competence to even grasp the complexity of AUv3 development.
+
+Aggressive Certainty of Judgment: This fundamental lack of knowledge paradoxically leads to absolute, fearless certainty of judgment. The gurus act as a kind of "software police" because, due to their lack of expertise, they believe software development is trivial and that their own design preferences constitute universal market laws.
+
+### Supplement to Chapter 5: Psychological and Behavioral Analysis
+
+## 5.2 Scientific Models of Group Dynamics in Toxic Online Bubbles
+
+The phenomenon of anonymous followers and the crowd immediately joining in the guru's "tearing apart" can be explained by three key social psychological concepts of group and mass dynamics:
+
+Group polarization (Stoner, 1961; Sunstein, 2002): Studies on digital filter bubbles show that discussions in homogeneous, isolated groups do not lead to a moderate consensus but become extremely radicalized. When the guru sets the tone, the subsequent power users try to outdo each other in their harshness to prove their membership in the "in-group." A minor UI scaling error is thus collectively blown out of proportion into an "outrage by the developer" through an informational cascade.
+
+Deindividuation and the online inhibition effect (Suler, 2004): Anonymity and pseudonyms in the forum lead to deindividuation (Festinger et al., 1952). Participants lose their individual sense of responsibility and moral inhibitions as they become part of the collective mass. Coupled with the online disinhibition effect, laypeople express highly emotional, destructive criticisms that they would never voice to a developer in face-to-face communication.
+
+Social identity theory and "cyber tribalism" (Tajfel & Turner, 1979): The forum forms a digital tribe (cyber tribe). The identity and self-esteem of the anonymous members are primarily derived from the denigration of the "out-group"—in this case, the recalcitrant developers who refuse to conform to the system. The psychological dissection and stigmatization of developers like iceWorks functions as a ritual act to strengthen the internal cohesion of the bubble.
+
+
+
