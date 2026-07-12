@@ -174,7 +174,7 @@ Aggressive Certainty of Judgment: This fundamental lack of knowledge paradoxical
 Supplement to Chapter 5: 
 Psychological and Behavioral Analysis
 
-## 5.2 Scientific Models of Group Dynamics in Toxic Online Bubbles
+## Scientific Models of Group Dynamics in Toxic Online Bubbles
 
 The phenomenon of anonymous followers and the crowd immediately joining in the guru's "tearing apart" can be explained by three key social psychological concepts of group and mass dynamics:
 
