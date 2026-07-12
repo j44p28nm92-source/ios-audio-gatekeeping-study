@@ -2,9 +2,9 @@
 
 # STUDY 1
 
-...
+... in preparation ...
 
-## Anhang: Register der untersuchten Plattformen und Akteure (Empirische Basis)
+### Anhang: Register der untersuchten Plattformen und Akteure (Empirische Basis)
 
 Zur Gewährleistung der wissenschaftlichen Transparanz und Nachvollziehbarkeit dieser Studie werden nachfolgend die untersuchten digitalen Infrastrukturen und deren administrativ Verantwortliche (Stand: 2026) rein dokumentarisch aufgeführt:
 
