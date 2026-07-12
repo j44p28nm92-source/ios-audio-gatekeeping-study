@@ -2,7 +2,7 @@
 
 # STUDY 1
 
-# The AudioApp & AUv3 Gatekeeper Report: Structural Market Distortion, Psychological Price Manipulation, and Informational Monopolies in the iOS Audio Ecosystem
+# The AudioApp & AUv3 Gatekeeper Report: Structural Market Distortion, Psychological Price Manipulation, and Informational Monopoles in the iOS Audio Ecosystem
 
 # Summary
 
