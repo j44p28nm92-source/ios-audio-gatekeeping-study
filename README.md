@@ -23,5 +23,5 @@ We start with a listing of AUv3 AudioUnit apps.
 ### Listings Of FREE AudioUnite
 Note: Many of the apps listed as "FREE" may contain in-app purchases.
 
-[FREE Apps Listing](./listings/free.md)
+[FREE AudioUnit Apps Listing](./listings/free.md)
 
