@@ -5,6 +5,8 @@
 #
 # STUDIES
 
+New Study: "This paper explores the dark side of niche digital platforms, where support forums evolve into tools of shadow market governance. It investigates a toxic forum bubble whose leaders act as a self-styled regulatory police force. Lacking actual technical or musical expertise, these actors rely on expertise-simulation and coercive group dynamics to enforce arbitrary price and design standards. Through active gatekeeping and the manipulation of anonymous power-users, they establish a parasitic ecosystem designed to redirect market visibility and revenue to favored actors while systematically boycotting non-compliant creators."
+
 [Studies Index](./studies/index.md)
 
 #
