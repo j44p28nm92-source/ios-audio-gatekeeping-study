@@ -4,7 +4,7 @@
 
 ### At the moment we are reworking the studies.
 
-[Study 2: The lay cartel: Inverse gatekeeping and informal market regulation in digital niche markets](./study%202.md)
+## [Study 2: The lay cartel: Inverse gatekeeping and informal market regulation in digital niche markets](./study%202.md)
 
 #
 
