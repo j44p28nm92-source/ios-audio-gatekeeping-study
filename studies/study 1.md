@@ -36,3 +36,8 @@ To ensure the scientific transparency and reproducibility of this study, the dig
 * *URL:* (removed)
 * *Developer:* Fred Anton Corvest (FAC)
 * *Data Source:* User-based submissions according to the official Privacy Policy ("User content: We collect the unknown audio units you voluntarily submit via AUBE").
+
+* *Untersuchte App-basierte Preis-Tracking-Struktur (AppRaven):
+* *App-Name: AppRaven: Apps Gone Free
+* *URL: (removed)
+* *Funktion in der Studie: Analysiert in Kapitel 5 und 7 hinsichtlich manipulativer UI-Konditionierung (Rote Preismarkierung) .
