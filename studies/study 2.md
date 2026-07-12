@@ -211,6 +211,7 @@ The most destructive dynamic is unleashed by the guru (e.g., G.) through the del
 The public face: The certified, commercial reviewer (YouTube/Patreon):
 
 On their own channels, the actor cultivates the narrative of a professional, unbiased journalist. They claim financial compensation for this work (editing, presentation, "educational content"). They suggest that they are providing a legitimate service to the market by reviewing apps and are paid for this by developers or the community (via sponsorships, licenses, or direct payments). [1, 2]
+
 The Hidden Face: The Toxic Mob Catalyst (Forum):
 
 However, as soon as the same actor enters the unmoderated spaces of the forum (such as the Loopy Pro Forum), he sheds the mask of the professional journalist. Here, he acts as an arsonist and enforcer. He uses the forum to expose disobedient developers with impunity, aggressively dissect their design decisions, and mobilize the anonymous crowd for coordinated dogpiling.
