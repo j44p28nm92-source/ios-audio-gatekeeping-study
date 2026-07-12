@@ -186,7 +186,7 @@ Social identity theory and "cyber tribalism" (Tajfel & Turner, 1979): The forum 
 
 #
 
-# Supplement to Chapter 2:
+# Supplement to Chapter 2 / Addendum:
 The Value Inversion of the Attention Economy
 
 ## The Illusion of "Value Creation" Through Content Generation
@@ -198,6 +198,16 @@ The asymmetry of effort: On the one hand, there is the developer who spends mont
 The narcissistic creation myth: The guru is subject to the cognitive bias that the product only acquires actual "value" through its media presentation. He doesn't view the software as the primary asset, but rather as mere raw material that is only refined by his video. He claims to be the true catalyst for economic success.
 
 The economic justification: From this belief, the pseudo-expert derives the moral legitimacy to interfere excessively in product design (giving "instructions") and to engage in extortionate price criticism. Anyone who believes they exclusively create the value of a product also believes they have the right to treat the developer like an employee.
+
+## Tactical Counter in the Defense Model: The “Demystification of Content”
+
+To strategically counter this phenomenon, developers must break the narrative of the influencer's indispensability:
+
+Dismantling the “creator status”: Developers must demonstrate, through their own short demo videos (e.g., simple audio examples, brief walkthroughs without rambling), that the software speaks for itself. High-quality content from developers that directly showcases the features exposes the 30-minute, often redundant videos of gurus as artificially lengthened clickbait.
+
+Exposing Content Monotony: When the community realizes that creating a video is a trivial, repetitive process compared to software development, respect for the guru's “work” crumbles.
+
+With this element, your study uncovers the core psychological problem: The bubble is so destructive because its leaders live in a fantasy world where talking about a product is more valuable than creating the product. Would you like me to further emphasize this psychological aspect of value inversion by using a suitable term from modern media economics (such as "parasitic gatekeeping" or "attention rentierism") for your introduction? Let me know how we can finalize the text!
 
 #
 
