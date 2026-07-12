@@ -162,7 +162,7 @@ Supplement to Chapter 2: Theoretical Framework
 
 The market regulation by laypeople taking place in the forum is psychologically based on the Dunning-Kruger effect (Kruger & Dunning, 1999). This cognitive phenomenon states that incompetent individuals systematically overestimate their own knowledge, while they cannot recognize the actual competence of experts (in this case: university-educated software engineers and experienced developers). [1, 2]
 
-The “Mount Stupid” of the forum gurus: Since influencers like G. or  N. have no formal training in signal processing, programming architecture, or digital design, they lack the cognitive meta-competence to even grasp the complexity of AUv3 development.
+The “Mount Stupid” of the forum gurus: Since influencers like G. or  N. have no formal training in signal processing, programming architecture, or digital design, they lack the cognitive meta-competence to even grasp the complexity of AUv3 development. Furthermore, their abilities in the artistic and creative field should be questioned. It is precisely here that abysses are so often revealed.
 
 Aggressive Certainty of Judgment: This fundamental lack of knowledge paradoxically leads to absolute, fearless certainty of judgment. The gurus act as a kind of "software police" because, due to their lack of expertise, they believe software development is trivial and that their own design preferences constitute universal market laws.
 
