@@ -8,7 +8,6 @@ In global, digital software markets (such as the Apple App Store), the tradition
 
 Using the case study of the synthesizer release “Mochizuki” by developer iceWorks in the Loopy Pro Forum, this paper demonstrates how a self-appointed elite of laypeople and micro-influencers systematically attempts to hijack market regulation and gatekeeping. This example is merely illustrative; the effect can be observed there almost daily.
 
-![image](./study%202.png)
 
 ## 2\. Theoretical Framework: Inverse Gatekeeping by Lay Actors
 
@@ -33,6 +32,8 @@ Pseudo-experts and influencers (like G.) act as artificial toll stations between
 Economic Damage Coefficient:
 
 Instead of creating added value for the market, these actors extract capital from the ecosystem. Developers who refuse to cooperate suffer massive revenue losses due to targeted, business-damaging framing, while cooperating developers (“favorite developers”) essentially have to cede a portion of their margin to the gurus to stay in business.
+
+![image](./study%202.png)
 
 ## 3\. Methodology and Data Basis
 
