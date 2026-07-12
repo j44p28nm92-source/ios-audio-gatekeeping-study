@@ -44,6 +44,8 @@ The Alliance of Independents: Building an informal, closed communication network
 
 Radical transparency: As soon as a guru attempts to extort favors through manipulative pressure or the threat of negative press coverage, this process must be publicly documented (e.g., via GitHub repositories or industry whistleblowing). The moral veneer of these pseudo-experts collapses the moment their purely monetary and power-political interests are exposed.
 
+
+#
 # 2. Legal Support (Competition and Tort Law)
 
 Since the actions of these actors (systematic silence in cases of non-cooperation, hyper-critical devaluation upon release) demonstrably torpedo the commercial success of software in the App Store, the line has been crossed into unfair market obstruction and defamation.
@@ -52,6 +54,7 @@ Securing Evidence: Developers must comprehensively and legally document thread h
 
 Liability of Platform Operators: If forum operators demonstrably allow defamatory campaigns to generate traffic to their advantage and fail to respond to notices and takedowns, they can be held liable as co-perpetrators. The threat of legal action compels operators to immediately enforce their own moderation guidelines and breaks the tolerance of this toxic behavior.
 
+#
 # 3. Concluding Remarks of the Addendum
 
 Pushing back the pseudo-expert communities is not a matter of personal preference, but a necessity for the self-preservation of a graceful, innovative ecosystem. By countering the mechanisms of the Dunning-Kruger effect and the simulation of expertise with this resilience model, developers deprive the cartel of its most important resource: unearned 'authority'. The market is thus returned to where it belongs – into the hands of those who create genuine added value through creative and technical excellence.
