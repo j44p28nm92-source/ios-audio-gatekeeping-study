@@ -156,7 +156,8 @@ In practice, this means that developers in niche markets must build strategic re
 
 #
 
-Supplement to Chapter 2: Theoretical Framework
+Supplement to Chapter 2: 
+Theoretical Framework
 
 ## 2.2 The Dunning-Kruger Effect as a Basis for Legitimizing Pseudo-Expertise
 
@@ -170,7 +171,8 @@ Aggressive Certainty of Judgment: This fundamental lack of knowledge paradoxical
 
 #
 
-Supplement to Chapter 5: Psychological and Behavioral Analysis
+Supplement to Chapter 5: 
+Psychological and Behavioral Analysis
 
 ## 5.2 Scientific Models of Group Dynamics in Toxic Online Bubbles
 
@@ -182,5 +184,42 @@ Deindividuation and the online inhibition effect (Suler, 2004): Anonymity and ps
 
 Social identity theory and "cyber tribalism" (Tajfel & Turner, 1979): The forum forms a digital tribe (cyber tribe). The identity and self-esteem of the anonymous members are primarily derived from the denigration of the "out-group"—in this case, the recalcitrant developers who refuse to conform to the system. The psychological dissection and stigmatization of developers like iceWorks functions as a ritual act to strengthen the internal cohesion of the bubble.
 
+#
+
+Supplement to Chapter 2 / Addendum:
+The Value Inversion of the Attention Economy
+
+## The Illusion of "Value Creation" Through Content Generation
+
+A central construct in the self-image of forum gurus (like G.) is the complete decoupling of real value creation and perceived relevance. It can be defined as a parasitic value inversion:
+
+The asymmetry of effort: On the one hand, there is the developer who spends months or years performing highly complex mathematical and software architectural engineering work (e.g., DSP code, AUv3 compatibility). On the other hand, there is the amateur influencer whose contribution is limited to producing an approximately 30-minute screen recording.
+
+The narcissistic creation myth: The guru is subject to the cognitive bias that the product only acquires actual "value" through its media presentation. He doesn't view the software as the primary asset, but rather as mere raw material that is only refined by his video. He claims to be the true catalyst for economic success.
+
+The economic justification: From this belief, the pseudo-expert derives the moral legitimacy to interfere excessively in product design (giving "instructions") and to engage in extortionate price criticism. Anyone who believes they exclusively create the value of a product also believes they have the right to treat the developer like an employee.
+
+#
+
+Supplement to Chapter 5: 
+The Actor Matrix (The Janus-Faced Paradox)
+
+## The Janus Face of the Pseudo-Expert: Professional Masquerade vs. Destructive Forum Justice
+
+The most destructive dynamic is unleashed by the guru (e.g., G.) through the deliberate manipulation of two completely contradictory identities: [1, 2]
+
+The public face: The certified, commercial reviewer (YouTube/Patreon):
+
+On their own channels, the actor cultivates the narrative of a professional, unbiased journalist. They claim financial compensation for this work (editing, presentation, "educational content"). They suggest that they are providing a legitimate service to the market by reviewing apps and are paid for this by developers or the community (via sponsorships, licenses, or direct payments). [1, 2]
+The Hidden Face: The Toxic Mob Catalyst (Forum):
+
+However, as soon as the same actor enters the unmoderated spaces of the forum (such as the Loopy Pro Forum), he sheds the mask of the professional journalist. Here, he acts as an arsonist and enforcer. He uses the forum to expose disobedient developers with impunity, aggressively dissect their design decisions, and mobilize the anonymous crowd for coordinated dogpiling.
+
+## The Strategic Benefits of This Discrepancy
+
+This double game is not a psychological accident, but a calculated power structure:
+
+Protection from Criticism: When the guru is criticized on his YouTube channels for his incompetence or bias, he retreats to the position of the "hard-working, professional video creator." [1]
+Extortion Leverage in the Forum: In the forum, however, he uses his simulated "journalistic authority" as a threat. The developer knows: The man who just tore my product apart in a single sentence here in the forum has the reach to cement this negative judgment in a 30-minute YouTube video in front of thousands of potential buyers. Forum aggression is thus the sledgehammer argument to force developers to cooperate (and thus share revenue) on his commercial channels. [1]
 
 
