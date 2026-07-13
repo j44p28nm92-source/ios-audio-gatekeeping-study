@@ -39,9 +39,9 @@ This Mac app has three main functions. It's based on Apple's official iTunes Sea
 
 1. Enter a search term and click 'Search'. The data set will then be loaded if results are available.
 2. The explicitly loaded set can be further searched internally by entering new search terms in realtime (RT) without using the button but just typing in new search terms.
-3. The Mouse allowas to select the link and a context menue allowas to directly skip to the Apple AppStore and to call other OS fubctions.
+3. The Mouse allowas to select the link and a context menue allowas to directly skip to the Apple AppStore and to call other OS functions.
 
 For example, you can first search for a global term like 'Reverb', click 'Search', and then search for 'Room' or 'Convolution' within the results.
 The search is case Insensive.
 
-( Note: The listings here on the site were generated with AudioApp Researcher PRO. )
+( Note: The listings here on the site were generated with AudioApp Researcher PRO, an offline extension based on a large database. )
