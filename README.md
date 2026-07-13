@@ -11,7 +11,7 @@ New Study: "This paper explores the dark side of niche digital platforms, where 
 
 #
 # LISTINGS
-We start with a listing of AUv3 AudioUnit apps.
+We're starting with a list of AUv3 AudioUnit apps. Please note that general lists are created less frequently. However, we are currently also monitoring daily feeds from the App Store for new music apps to generate feeds. This is essential because more and more providers are filtering data to control and exclude releases. This may be for technical reasons, but most likely these gatekeepers are only publishing and promoting what's on their own agenda.
 
 ### An Initial Search for ‚AUv3’
 
