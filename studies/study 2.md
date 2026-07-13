@@ -78,7 +78,7 @@ Certain developers cooperate directly with the forum gurus (e.g., through financ
 
 Systematic Silence (Censorship through Ignorance):
 
-Developers who evade this system or strain the artificially limited attention of the gurus through high release frequencies (e.g., four releases per month) are systematically silenced and ultimately ignored. The cartel permanently deprives them of vital visibility in the niche market, which amounts to a digital boycott.
+Developers who evade this system or strain the artificially limited attention of the gurus (even if there are four releases in a month) are systematically silenced and ultimately ignored. The cartel permanently deprives them of vital visibility in the niche market, which amounts to a digital boycott.
 
 ### 4.2 Psychological Execution and Branding
 
