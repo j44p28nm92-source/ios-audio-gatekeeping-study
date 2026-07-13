@@ -1,0 +1,19 @@
+#
+# AudioUnit Search For 'Expander'
+
+This extract was created with AudioApp Researcher Pro - 2026-07-13 21:42:00 +0000.
+
+| Icon | App Name | Price | AppStore Link |
+| :---: | :--- | :---: | ---: |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/8f/7e/61/8f7e61ae-c7b0-fd07-3723-00ac251587e6/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Kymatica AB</small><br>**AU3FX:Push** | `$6.99` | [Show in AppStore](https://apps.apple.com/us/app/au3fx-push/id1596371447?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/03/03/b6/0303b60b-b749-acf3-18b0-33d87c708fdc/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br>**Gain Stage Acoustic** | `$5.99` | [Show in AppStore](https://apps.apple.com/us/app/gain-stage-acoustic/id1567355339?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7a/ae/f2/7aaef27d-0a1d-8f90-8f82-c97a2e1deeaf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br>**Noise Gate & Downward Expander** | `$5.99` | [Show in AppStore](https://apps.apple.com/us/app/noise-gate-downward-expander/id1488081633?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/a1/ea/76a1ead6-9942-fbb1-62ed-7945d4370b07/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Jens Guell</small><br>**JAX CHROMATIC : Compander** | `$12.99` | [Show in AppStore](https://apps.apple.com/us/app/jax-chromatic-compander/id1619225672?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/f0/0a/95f00ad8-e14b-c690-b8d4-4163973e7935/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Jens Guell</small><br>**JAX DYNAMICS : Compander** | `$4.99` | [Show in AppStore](https://apps.apple.com/us/app/jax-dynamics-compander/id1619215243?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/63/df/ea63df1a-ff3b-7054-b5a9-19df15ad2fb1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">apeSoft</small><br>**apeFilter** | `$7.99` | [Show in AppStore](https://apps.apple.com/us/app/apefilter/id903006632?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/eb/97/b9eb97d0-d4cf-a831-d94c-bb94ca624a64/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">4Pockets.com</small><br>**Visual Multi-Band Compressor** | `$8.99` | [Show in AppStore](https://apps.apple.com/us/app/visual-multi-band-compressor/id1474969434?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/0c/6f/430c6fad-5e78-68a2-c11c-d9cdc2984228/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">SoundWare, Inc.</small><br>**OCTANE Mobile - AUV3** | `FREE` | [Show in AppStore](https://apps.apple.com/us/app/octane-mobile-auv3/id1586784492?uo=4) |
+#
+### Legal Disclaimer
+This data is fetched from the official public Apple API. All app names, developer names, prices, and icons are the intellectual property of Apple Inc. or their respective owners. Pricing and availability are snapshots and subject to change.
+

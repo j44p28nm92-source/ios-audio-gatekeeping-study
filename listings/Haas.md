@@ -1,0 +1,19 @@
+#
+# AudioUnit Search For 'Haas'
+
+This extract was created with AudioApp Researcher Pro - 2026-07-13 21:42:17 +0000.
+
+| Icon | App Name | Price | AppStore Link |
+| :---: | :--- | :---: | ---: |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/fd/b0/eb/fdb0ebe7-f23f-8774-ab5e-01f7aa2c0d8c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br>**Stereo Lag Time** | `FREE` | [Show in AppStore](https://apps.apple.com/us/app/stereo-lag-time/id1459615373?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/a6/6b/62/a66b621c-9b06-54b9-6c3b-1214a390d0a4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Bram Bos</small><br>**Kosmonaut** | `$3.99` | [Show in AppStore](https://apps.apple.com/us/app/kosmonaut/id1351237773?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/b9/97/df/b997dfd4-5355-9b70-ffac-6967e714f089/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Klevgränd produkter AB</small><br>**Haaze 2** | `$16.49` | [Show in AppStore](https://apps.apple.com/us/app/haaze-2/id1478120819?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/57/6e/f8576e9a-a758-7097-3362-ec9e5e7f3aba/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Igor Vasiliev</small><br>**AltiSpace 2** | `$7.99` | [Show in AppStore](https://apps.apple.com/us/app/altispace-2/id1580223509?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/38/8b/a4388b1c-93b7-fadf-0a6c-4468fb9a527c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">4Pockets.com</small><br>**QuadroSphere** | `$14.99` | [Show in AppStore](https://apps.apple.com/us/app/quadrosphere/id6740915664?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/a5/a2/0ea5a284-a9d2-efb6-6e8e-185a2e44877c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">4Pockets.com</small><br>**FontStack** | `$14.99` | [Show in AppStore](https://apps.apple.com/us/app/fontstack/id6742742740?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/c1/79/3dc17991-3684-1e20-5f05-f64dd8ae125e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">4Pockets.com</small><br>**Oscidia** | `$14.99` | [Show in AppStore](https://apps.apple.com/us/app/oscidia/id6748944379?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/3d/3f/5e3d3f6d-ff51-f7ad-cdc2-67cc1fd4dd2d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">4Pockets.com</small><br>**HeadStack** | `$9.99` | [Show in AppStore](https://apps.apple.com/us/app/headstack/id6781611375?uo=4) |
+#
+### Legal Disclaimer
+This data is fetched from the official public Apple API. All app names, developer names, prices, and icons are the intellectual property of Apple Inc. or their respective owners. Pricing and availability are snapshots and subject to change.
+
