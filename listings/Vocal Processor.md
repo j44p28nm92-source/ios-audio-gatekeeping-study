@@ -1,7 +1,7 @@
 #
 # AudioUnit Search For 'Vocal Processor'
 
-This extract was created with AudioApp Researcher Pro - 2026-07-11 23:10:51 +0000.
+This extract was created with AudioApp Researcher Pro - 2026-07-13 21:45:24 +0000.
 
 | Icon | App Name | Price | AppStore Link |
 | :---: | :--- | :---: | ---: |

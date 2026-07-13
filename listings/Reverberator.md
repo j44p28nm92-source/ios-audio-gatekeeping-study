@@ -1,7 +1,7 @@
 #
 # AudioUnit Search For 'Reverberator'
 
-This extract was created with AudioApp Researcher Pro - 2026-07-11 23:09:31 +0000.
+This extract was created with AudioApp Researcher Pro - 2026-07-13 21:44:13 +0000.
 
 | Icon | App Name | Price | AppStore Link |
 | :---: | :--- | :---: | ---: |

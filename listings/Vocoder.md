@@ -1,7 +1,7 @@
 #
 # AudioUnit Search For 'Vocoder'
 
-This extract was created with AudioApp Researcher Pro - 2026-07-11 23:10:53 +0000.
+This extract was created with AudioApp Researcher Pro - 2026-07-13 21:45:26 +0000.
 
 | Icon | App Name | Price | AppStore Link |
 | :---: | :--- | :---: | ---: |
@@ -9,7 +9,6 @@ This extract was created with AudioApp Researcher Pro - 2026-07-11 23:10:53 +000
 | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/3b/d0/af/3bd0af7a-62f9-a656-27eb-6ce23956d77a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Harry Gohs</small><br>**VoxSyn Pro** | `$1.99` | [Show in AppStore](https://apps.apple.com/us/app/voxsyn-pro/id1486614433?uo=4) |
 | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b5/07/c9/b507c995-7598-52d4-42db-1636ec083344/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Erik Sigth</small><br>**voice bot** | `$4.99` | [Show in AppStore](https://apps.apple.com/us/app/voice-bot/id654025530?uo=4) |
 | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/64/ba/3f/64ba3f10-f8bb-7acb-c9a7-5525cdcf1c65/AppIcon-1x_U007emarketing-0-4-85-220-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">KV331 Audio</small><br>**SynthMaster One for iPhone** | `FREE` | [Show in AppStore](https://apps.apple.com/us/app/synthmaster-one-for-iphone/id1490902617?uo=4) |
-| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/00/ff/aa/00ffaa0c-5141-4788-221d-bb6a7dfab51a/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Jens Guell</small><br>**JAX Unisonic (Audio Unit)** | `$9.99` | [Show in AppStore](https://apps.apple.com/us/app/jax-unisonic-audio-unit/id1492522141?uo=4) |
 | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/1c/d8/af1cd85f-3b32-4246-8e23-310b6c0c74c1/AppIcon-1x_U007emarketing-0-5-85-220-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">KV331 Audio</small><br>**SynthMaster One** | `$9.99` | [Show in AppStore](https://apps.apple.com/us/app/synthmaster-one/id1254353266?uo=4) |
 | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/4c/bb/904cbb65-6fd5-1c48-9e02-41c025c20359/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Harry Gohs</small><br>**Matrix Vocoder** | `$5.99` | [Show in AppStore](https://apps.apple.com/us/app/matrix-vocoder/id1464318049?uo=4) |
 | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/7c/97/287c975c-da63-17fb-748a-4b1fd7a3cd7b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">4Pockets.com</small><br>**MeloVox - Vocal Harmony** | `$14.99` | [Show in AppStore](https://apps.apple.com/us/app/melovox-vocal-harmony/id6544800478?uo=4) |

@@ -1,0 +1,19 @@
+#
+# AudioUnit Search For 'Physics'
+
+This extract was created with AudioApp Researcher Pro - 2026-07-13 21:43:37 +0000.
+
+| Icon | App Name | Price | AppStore Link |
+| :---: | :--- | :---: | ---: |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/00/43/73/00437372-0639-16b8-cd6a-ca96a1bfec3b/AppIcon-1-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Rodrigo Roman</small><br>**Physicles** | `FREE` | [Show in AppStore](https://apps.apple.com/us/app/physicles/id1409156444?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/19/53/92/19539278-6a51-053c-794e-5e62eafb6b22/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">AppBC</small><br>**touchAble Pro** | `$29.99` | [Show in AppStore](https://apps.apple.com/us/app/touchable-pro/id1205967746?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/bd/28/b3bd28db-eecd-72da-323d-a33b735bc5d8/AppIcon-0-0-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Cem Olcay</small><br>**BounceBud Physics Based MIDI** | `$5.99` | [Show in AppStore](https://apps.apple.com/us/app/bouncebud-physics-based-midi/id6464171933?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/bd/b0/83bdb0a2-c225-bdf0-d2a8-a9e7204a2458/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Modartt</small><br>**Pianoteq 8** | `FREE` | [Show in AppStore](https://apps.apple.com/us/app/pianoteq-8/id1642344241?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/fd/8f/02fd8f2d-a97e-2887-677a-fa7939cf584a/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Cem Olcay</small><br>**Ova Ambient Synthesizer** | `$5.99` | [Show in AppStore](https://apps.apple.com/us/app/ova-ambient-synthesizer/id6751897870?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/49/6e/e7496e0e-40c6-2055-7482-94c05206e6f7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Usable Creations</small><br>**Mass - MIDI Generator** | `$9.99` | [Show in AppStore](https://apps.apple.com/us/app/mass-midi-generator/id6498471263?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/35/63/4f356384-bb1b-e9b8-1b09-83861c976e09/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Fingerlab</small><br>**Jynth – Physics Analog Synth** | `FREE` | [Show in AppStore](https://apps.apple.com/us/app/jynth-physics-analog-synth/id6761420030?uo=4) |
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/5c/0f/aa5c0faa-c216-2d1d-2939-5263abdd9319/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg" width="40" height="40" style="border-radius: 8px;" /> | <small style="color: #8a8a8a;">Fingerlab</small><br>**MIDIx - Physics MIDI Generator** | `$8.99` | [Show in AppStore](https://apps.apple.com/us/app/midix-physics-midi-generator/id6758278999?uo=4) |
+#
+### Legal Disclaimer
+This data is fetched from the official public Apple API. All app names, developer names, prices, and icons are the intellectual property of Apple Inc. or their respective owners. Pricing and availability are snapshots and subject to change.
+

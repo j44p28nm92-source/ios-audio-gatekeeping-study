@@ -1,20 +1,16 @@
-#
-# AUv3 Audio Units & Audio Apps Listing
-
-Remarks: Since these listings are currently generated offline for better indexing by search engines, please note that the actual availability of the displayed items may change; new apps are added to the Apple App Store daily, and others disappear again.
-
-#
-# LISTINGS
+# LISTING
 
 - [Search For 'Ableton Link'](./Ableton%20Link.md)
 - [Search For 'Acoustic'](./Acoustic.md)
 - [Search For 'Aftertouch'](./Aftertouch.md)
 - [Search For 'Amp'](./Amp.md)
 - [Search For 'Amplifier'](./Amplifier.md)
+- [Search For 'Analog'](./Analog.md)
 - [Search For 'Analyse'](./Analyse.md)
 - [Search For 'Analysis'](./Analysis.md)
 - [Search For 'Analyzer'](./Analyzer.md)
 - [Search For 'Arpeggiator'](./Arpeggiator.md)
+- [Search For 'Arpeggio'](./Arpeggio.md)
 - [Search For 'Audio'](./Audio.md)
 - [Search For 'Audiobus'](./Audiobus.md)
 - [Search For 'AudioUnit'](./AudioUnit.md)
@@ -37,8 +33,12 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'DAW'](./DAW.md)
 - [Search For 'Delay'](./Delay.md)
 - [Search For 'Device'](./Device.md)
+- [Search For 'Digital'](./Digital.md)
+- [Search For 'Digital Signal Processing'](./Digital%20Signal%20Processing.md)
 - [Search For 'Distortion'](./Distortion.md)
+- [Search For 'Drum Kit'](./Drum%20Kit.md)
 - [Search For 'Drum Machine'](./Drum%20Machine.md)
+- [Search For 'Drum Set'](./Drum%20Set.md)
 - [Search For 'DSP'](./DSP.md)
 - [Search For 'Editor'](./Editor.md)
 - [Search For 'Effect'](./Effect.md)
@@ -46,6 +46,7 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Envelope'](./Envelope.md)
 - [Search For 'Equalizer'](./Equalizer.md)
 - [Search For 'Eurorack'](./Eurorack.md)
+- [Search For 'Expander'](./Expander.md)
 - [Search For 'Extension'](./Extension.md)
 - [Search For 'FFT'](./FFT.md)
 - [Search For 'Filter'](./Filter.md)
@@ -54,14 +55,19 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Follower'](./Follower.md)
 - [Search For 'Fourier Transform'](./Fourier%20Transform.md)
 - [Search For 'Frequency'](./Frequency.md)
+- [Search For 'Frequency Response'](./Frequency%20Response.md)
 - [Search For 'FX'](./FX.md)
 - [Search For 'GarageBand'](./GarageBand.md)
 - [Search For 'Gate'](./Gate.md)
 - [Search For 'Generator'](./Generator.md)
 - [Search For 'Grand Piano'](./Grand%20Piano.md)
 - [Search For 'Guitar'](./Guitar.md)
+- [Search For 'Haas'](./Haas.md)
 - [Search For 'Hall'](./Hall.md)
+- [Search For 'Harmonic'](./Harmonic.md)
 - [Search For 'Harmony'](./Harmony.md)
+- [Search For 'Hipass'](./Hipass.md)
+- [Search For 'Host'](./Host.md)
 - [Search For 'IAA'](./IAA.md)
 - [Search For 'Impulse'](./Impulse.md)
 - [Search For 'Inter-App Audio'](./Inter-App%20Audio.md)
@@ -73,6 +79,7 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Logic Pro'](./Logic%20Pro.md)
 - [Search For 'Loopy Pro'](./Loopy%20Pro.md)
 - [Search For 'Loudness'](./Loudness.md)
+- [Search For 'Lowpass'](./Lowpass.md)
 - [Search For 'Mastering'](./Mastering.md)
 - [Search For 'Matrix'](./Matrix.md)
 - [Search For 'Meter'](./Meter.md)
@@ -85,16 +92,21 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Module'](./Module.md)
 - [Search For 'Mono'](./Mono.md)
 - [Search For 'Monophonic'](./Monophonic.md)
-- [Search For 'Multi Track'](./Multi%20Track.md)
+- [Search For 'MultiTrack'](./MultiTrack.md)
 - [Search For 'Music'](./Music.md)
 - [Search For 'NanoStudio'](./NanoStudio.md)
 - [Search For 'Noise'](./Noise.md)
 - [Search For 'Note'](./Note.md)
+- [Search For 'Notes'](./Notes.md)
+- [Search For 'Oscillator'](./Oscillator.md)
 - [Search For 'Overdrive'](./Overdrive.md)
+- [Search For 'Pan'](./Pan.md)
+- [Search For 'Panorama'](./Panorama.md)
 - [Search For 'Parameter'](./Parameter.md)
 - [Search For 'Patch'](./Patch.md)
 - [Search For 'Pedalboard'](./Pedalboard.md)
 - [Search For 'Phaser'](./Phaser.md)
+- [Search For 'Physics'](./Physics.md)
 - [Search For 'Piano'](./Piano.md)
 - [Search For 'Piano Roll'](./Piano%20Roll.md)
 - [Search For 'Pitch'](./Pitch.md)
@@ -105,11 +117,13 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Pressure'](./Pressure.md)
 - [Search For 'Process'](./Process.md)
 - [Search For 'Production'](./Production.md)
+- [Search For 'Progression'](./Progression.md)
 - [Search For 'Rate'](./Rate.md)
 - [Search For 'Recorder'](./Recorder.md)
 - [Search For 'Recording'](./Recording.md)
 - [Search For 'Reducer'](./Reducer.md)
 - [Search For 'Resampling'](./Resampling.md)
+- [Search For 'Resonance'](./Resonance.md)
 - [Search For 'Reverb'](./Reverb.md)
 - [Search For 'Reverberator'](./Reverberator.md)
 - [Search For 'Rhythm'](./Rhythm.md)
@@ -127,7 +141,9 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Sound'](./Sound.md)
 - [Search For 'Sound Design'](./Sound%20Design.md)
 - [Search For 'Soundfont'](./Soundfont.md)
+- [Search For 'Spatial'](./Spatial.md)
 - [Search For 'Spectral'](./Spectral.md)
+- [Search For 'Spectre'](./Spectre.md)
 - [Search For 'Spectro'](./Spectro.md)
 - [Search For 'Spectrogram'](./Spectrogram.md)
 - [Search For 'Step Sequencer'](./Step%20Sequencer.md)
@@ -140,7 +156,9 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Synthesizer'](./Synthesizer.md)
 - [Search For 'Tape'](./Tape.md)
 - [Search For 'Technology'](./Technology.md)
+- [Search For 'Timbre'](./Timbre.md)
 - [Search For 'Tone'](./Tone.md)
+- [Search For 'Track'](./Track.md)
 - [Search For 'Treble'](./Treble.md)
 - [Search For 'Tube'](./Tube.md)
 - [Search For 'Tuner'](./Tuner.md)
@@ -158,14 +176,3 @@ Remarks: Since these listings are currently generated offline for better indexin
 - [Search For 'Wavetable'](./Wavetable.md)
 - [Search For 'Workstation'](./Workstation.md)
 - [Search For 'YAMAHA'](./YAMAHA.md)
-
-#
-### Legal Notice
-
-This data extract is for informational purposes only. All product information, including but not limited to app names, developer names, prices, and icon graphics, is sourced directly from the official Apple iTunes/App Store API.
-
-- **Data Ownership:** All intellectual property rights, trademarks, and copyrights relating to the listed apps, trademarks, and visuals belong to Apple Inc. or their respective developers.
-
-- **Information Currentness:** This document represents a snapshot of publicly available data at the time of its creation. Prices and availability are subject to change by the developers or Apple at any time without notice.
-
-- **Affiliation:** This tool (“AudioApp Researcher Pro”) is an independent software application and is not affiliated with, endorsed, or otherwise officially associated with Apple Inc.
