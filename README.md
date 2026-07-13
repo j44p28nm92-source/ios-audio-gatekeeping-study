@@ -13,7 +13,7 @@ New Study: "This paper explores the dark side of niche digital platforms, where 
 # FEEDS
 A first test feed for latest AUv3 related releases.
 
-[General AUv3 Listing](./FEED.md)
+[General AUv3 Listing](./LAST.md)
 
 #
 # LISTINGS
