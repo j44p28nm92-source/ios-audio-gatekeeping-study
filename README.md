@@ -10,6 +10,12 @@ New Study: "This paper explores the dark side of niche digital platforms, where 
 [Studies Index](./studies/index.md)
 
 #
+# FEEDS
+A first test feed for latest AUv3 related releases.
+
+[General AUv3 Listing](./FEED.md)
+
+#
 # LISTINGS
 We're starting with a list of AUv3 AudioUnit apps. Please note that general lists are created less frequently. However, we are currently also monitoring daily feeds from the App Store for new music apps to generate feeds. This is essential because more and more providers are filtering data to control and exclude releases. This may be for technical reasons, but most likely these gatekeepers are only publishing and promoting what's on their own agenda.
 
