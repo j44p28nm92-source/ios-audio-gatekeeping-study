@@ -206,7 +206,7 @@ Dismantling the “creator status”: Developers must demonstrate, through their
 
 Exposing Content Monotony: When the community realizes that creating a video is a trivial, repetitive process compared to software development, respect for the guru's “work” crumbles.
 
-With this element, your study uncovers the core psychological problem: The bubble is so destructive because its leaders live in a fantasy world where talking about a product is more valuable than creating the product. Would you like me to further emphasize this psychological aspect of value inversion by using a suitable term from modern media economics (such as "parasitic gatekeeping" or "attention rentierism") for your introduction? Let me know how we can finalize the text!
+With this element, the study uncovers the core psychological problem: The bubble is so destructive because its leaders live in a fantasy world where talking about a product is more valuable than creating the product. 
 
 #
 
