@@ -13,7 +13,7 @@ New Study: "This paper explores the dark side of niche digital platforms, where 
 # FEEDS
 A first test feed for latest AUv3 related releases. Please note: This are not just new releases but also updates!
 
-[Latest AUv3 Feed](./listings/LATEST.md)
+[Latest AUv3 & Audio Apps Feed](./listings/LATEST.md)
 
 #
 # LISTINGS
@@ -31,7 +31,7 @@ We're starting with a list of AUv3 AudioUnit apps. Please note that general list
 ### Listings Of FREE AudioUnite
 Note: Many of the apps listed as "FREE" may contain in-app purchases.
 
-[FREE AudioUnit Apps](./listings/FREE.md)
+[FREE AudioUnits & Audio Apps](./listings/FREE.md)
 
 #
 # APPS
