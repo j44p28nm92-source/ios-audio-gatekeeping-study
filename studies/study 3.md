@@ -82,7 +82,9 @@ The empirical evidence gathered from 9,773 extracted entries and 858 localized A
 Because the official channels fail to provide an honest readout - penalizing both technical precision (Spam-Filters) and platform specialization (iPad-only pruning) - the publication of independent, un-redacted databases and community-driven directories is the only viable method to break the artificial information monopoly of the platform gatekeeper and restore visibility to independent creators.
 
 
-# Addendum: Found AUv3 units
+### Addendum: Number of founnd AUv3 units
 
 <img width="1329" height="1008" alt="study 3-5" src="https://github.com/user-attachments/assets/8e0ed2b1-e01c-43b2-a1e9-e307a9067d1b" />
+
+We estimate that there are currently around 1,100 audio units in the App Store. Some of them are probably not easy to find.
 
