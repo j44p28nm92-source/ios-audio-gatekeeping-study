@@ -48,6 +48,7 @@ Regarding data collection transparency: All results are generated using Apple's 
 
 ![image](./AudioApp%20Researcher%20RT.png)
 
+RT version is the realtime search without a global data backend. 
 This Mac app has three main functions. It's based on Apple's official iTunes Search API.
 
 1. Enter a search term and click 'Search'. The data set will then be loaded if results are available.
