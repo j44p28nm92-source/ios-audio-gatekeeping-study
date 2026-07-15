@@ -3,6 +3,9 @@
 
 This study investigates the structural, algorithmic, and systemic barriers embedded within Apple’s public iTunes Search API (/search) that disrupt the discovery and fair visibility of professional iOS audio software and AudioUnit (AUv3) extensions. Utilizing a specialized, non-biased extraction matrix comprising 500 deep-technical audio terms, we generated a comprehensive global index of 9,773 music-genre entities (Genre 6011) and isolated 858 distinct AUv3 applications — representing near-total coverage of the active mobile audio-production market.
 
+<img width="1315" height="1063" alt="study 3-4" src="https://github.com/user-attachments/assets/ec7a0cbc-f4cd-44f8-b18e-3513dd2da7d2" />
+
+
 By utilizing a blind control group alongside empirical query analyses of industry-standard developers (e.g., FabFilter, Fred Anton Corvest), we mathematically demonstrate that the legacy search API suffers from critical architectural failures. These failures result in a severe informational bottleneck, a structural shadow-ban of high-end specialized software, and an artificial data scarcity that directly forces reliance on self-serving community gatekeepers.
 
 ## 1. Architectural Diagnostics & The Truncation Trajectory
@@ -77,3 +80,9 @@ Deduction: The result is similar to the result of case study 2.1 (JAX). Some pro
 The empirical evidence gathered from 9,773 extracted entries and 858 localized AUv3 apps completely deconstructs the illusion of an unbiased, open marketplace digital registry. The primary gatekeeper’s search API actively masks, distorts, and suppresses the actual catalog of professional audio tools.
 
 Because the official channels fail to provide an honest readout - penalizing both technical precision (Spam-Filters) and platform specialization (iPad-only pruning) - the publication of independent, un-redacted databases and community-driven directories is the only viable method to break the artificial information monopoly of the platform gatekeeper and restore visibility to independent creators.
+
+
+# Addendum: Found AUv3 units
+
+<img width="1329" height="1008" alt="study 3-5" src="https://github.com/user-attachments/assets/8e0ed2b1-e01c-43b2-a1e9-e307a9067d1b" />
+
