@@ -51,7 +51,7 @@ To verify the fidelity of our extraction methodology and isolate platform bias, 
 ### 2.1 The Blind Context Control Test (Developer: Jens Guell / JAX)
 
 Status: Independent, highly compliant mobile-first developer with a portfolio deeply rooted in technical nomenclature.
-Empirical Matrix Output: 36 out of 36 distinct applications successfully captured (100% Discovery Rate). Remark: The correct number of mlisted products in the Apple AppStore is not matching with this search nevertheless. It should have been 39 at this point of time.
+Empirical Matrix Output: 36 out of 39 distinct applications successfully captured (around 90% Discovery Rate). 
 Deduction: The 500 technical keywords operate with good perfection. The matrix successfully parses the deep data layer, fetching complex niche utilities relatively un-biased by brand authority.
 
 ### 2.2 Case Study A: The Systemic Suppression of FabFilter
@@ -62,7 +62,7 @@ Deduction: Despite immaculate technical metadata and identical distribution prof
 
 ### 2.3 Case Study B: The Homogeneous Prefix Lockout (Developer: Fred Anton Corvest / FAC)
 
-Status: Legendary iOS-audio pioneer utilizing a rigid corporate branding prefix (FAC) across a highly uniform catalog of over 15 distinct plug-ins.
+Status: Legendary iOS-audio pioneer utilizing a rigid corporate branding prefix (FAC - similar as the first example with 'JAX') across a highly uniform catalog of over 15 distinct plug-ins.
 Empirical Matrix Output: Exactly 11 applications captured.
 Deduction: The omission of almost half the portfolio reveals an automated anti-spam heuristic flaw. The repeating, legitimate brand prefix (FAC) across multiple specialized products is flagged by the API as algorithmic keyword-stuffing. The developer is probably penalized with an partial automated shadow-ban within the public search layer.
 
