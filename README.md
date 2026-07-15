@@ -59,3 +59,13 @@ For example, you can first search for a global term like 'Reverb', click 'Search
 The search is case Insensive.
 
 ( Note: The listings here on the site were generated with AudioApp Researcher PRO, an offline extension based on a large database. )
+
+## 🛑 CRITICAL LEGAL NOTICE: COMMERCIAL USE PROHIBITED
+
+This repository containing the un-redacted AUv3 index, the token functional query matrix, and the underlying CoreData/Swift extraction tool is published strictly under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+* **Academic, Community, and Personal Use:** Fully permitted. You are encouraged to audit, fork, and verify the data.
+* **Commercial Exploitation:** Strictly prohibited. You may NOT integrate this database, the underlying source code, or the search concepts into commercial App Store Optimization (ASO) tools, paid platform directories, market analysis software, or data-broker systems.
+
+*Any commercial entity caught extracting data or harvesting code from this study will face immediate DMCA takedown protocols and international copyright enforcement litigation.*
+
