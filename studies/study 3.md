@@ -45,7 +45,7 @@ Our crawl logs reveal that technical search terms consistently yield non-rounded
 
 ## 1.2 The Absolute Absence of Lemmatization
 
-The legacy indexer lacks any linguistic word-stemming features. Grammatical variations of the identical semantic core (e.g., synth vs. synths, filter vs. filtering) are treated as entirely foreign byte-sequences. Mainstream consumer software heavily occupies the single-word singular queries, displacing niche entries before they reach the Stage 3 filter. Minor plural shifts change the Stage 1 weightings so drastically that completely disjointed product pools are returned.
+The legacy indexer lacks any linguistic word-stemming features. Grammatical variations of the identical semantic core (e.g., synth vs. synths, filter vs. filtering) are treated as entirely foreign byte-sequences. Mainstream consumer software heavily occupies the single-word singular queries, displacing niche entries before they reach the Stage 3 filter. Minor plural shifts change the Stage 1 weightings so drastically that completely disjointed product pools are returned. The simpler the search terms, the fewer search results are usually returned.
 
 # 2. Empirical Validation & Control Group Analysis
 
