@@ -50,11 +50,15 @@ To verify the fidelity of our extraction methodology and isolate platform bias, 
 
 ### 2.1 The Blind Context Control Test (Developer: Jens Guell / JAX)
 
+<img width="1385" height="1250" alt="study 3-1" src="https://github.com/user-attachments/assets/f1b89280-0d4a-46b5-a6e1-0a66aefa9c72" />
+
 Status: Independent, highly compliant mobile-first developer with a portfolio deeply rooted in technical nomenclature.
 Empirical Matrix Output: 36 out of 39 distinct applications successfully captured (around 90% Discovery Rate). 
 Deduction: The 500 technical keywords operate with good perfection. The matrix successfully parses the deep data layer, fetching complex niche utilities relatively un-biased by brand authority.
 
 ### 2.2 Case Study A: The Systemic Suppression of FabFilter
+
+<img width="1315" height="1063" alt="study 3-2" src="https://github.com/user-attachments/assets/d2495f06-d59e-4619-bbe5-d4a27e86fcec" />
 
 Status: Globally renowned, multi-award-winning premium desktop & mobile software provider.
 Empirical Matrix Output: Exactly 1 application captured (FabFilter Pro-Q 3) out of 12+ active live portfolio products (<10% Discovery Rate).
@@ -62,9 +66,11 @@ Deduction: Despite immaculate technical metadata and identical distribution prof
 
 ### 2.3 Case Study B: The Homogeneous Prefix Lockout (Developer: Fred Anton Corvest / FAC)
 
+<img width="1329" height="1008" alt="study 3-3" src="https://github.com/user-attachments/assets/bd0fdb1b-b35a-4bfa-b75a-5c264b795aaf" />
+
 Status: Legendary iOS-audio pioneer utilizing a rigid corporate branding prefix (FAC - similar as the first example with 'JAX') across a highly uniform catalog of over 15 distinct plug-ins.
 Empirical Matrix Output: Exactly 11 applications captured.
-Deduction: The omission of almost half the portfolio reveals an automated anti-spam heuristic flaw. The repeating, legitimate brand prefix (FAC) across multiple specialized products is flagged by the API as algorithmic keyword-stuffing. The developer is probably penalized with an partial automated shadow-ban within the public search layer.
+Deduction: The result is similar to the result of case study 2.1 (JAX). Some products are missing, but this is not due to missing or unused search terms.
 
 # 3. Conclusion & The Call for Directory Independence
 
