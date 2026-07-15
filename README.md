@@ -60,7 +60,11 @@ The search is case Insensive.
 
 ( Note: The listings here on the site were generated with AudioApp Researcher PRO, an offline extension based on a large database. )
 
-## 🛑 CRITICAL LEGAL NOTICE: COMMERCIAL USE PROHIBITED
+#
+
+## 🛑 
+
+# CRITICAL LEGAL NOTICE: COMMERCIAL USE PROHIBITED
 
 This repository containing the un-redacted AUv3 index, the token functional query matrix, and the underlying CoreData/Swift extraction tool is published strictly under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
 
