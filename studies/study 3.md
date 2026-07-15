@@ -9,6 +9,7 @@ By utilizing a blind control group alongside empirical query analyses of industr
 
 The empirical data gathered proves that the public iTunes Search API does not operate as a transparent database lookup, but rather as an adversarial sorting machine. Standard keyword execution coupled with the primary genre constraint (genreId=6011) exposes three massive structural flaws:
 
+```text
 [User Keyword Query] 
        │
        ▼
@@ -33,3 +34,4 @@ The empirical data gathered proves that the public iTunes Search API does not op
        │
        ▼
 [Final Result Pool: ~150-195 Items] -> (Premium iPad-only AUv3s completely suppressed)
+```
