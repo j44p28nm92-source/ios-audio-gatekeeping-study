@@ -4,8 +4,11 @@
 
 ### At the moment we are reworking the studies.
 
-# NEW STUDY: 
-## [The Layman Cartel: Inverse Gatekeeping and Informal Market Regulation in Digital Niche Markets](./study%202.md)
+#
+# NEW STUDIES: 
+## Study 3: Algorithmic Asymmetry and Structural Gatekeeping in the Legacy iTunes Search API: An Empirical Analysis of Niche Market Suppression in the iOS Audio Ecosystem
+#
+## [Study 1: The Layman Cartel: Inverse Gatekeeping and Informal Market Regulation in Digital Niche Markets](./study%202.md)
 
 #
 
