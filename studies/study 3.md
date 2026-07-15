@@ -48,19 +48,19 @@ The legacy indexer lacks any linguistic word-stemming features. Grammatical vari
 
 To verify the fidelity of our extraction methodology and isolate platform bias, we cross-referenced the global database against three distinct entities. The extraction was executed blindly, meaning neither developer names nor product prefixes were part of the 500-word query array.
 
-## 2.1 The Blind Context Control Test (Developer: Jens Guell / JAX)
+### 2.1 The Blind Context Control Test (Developer: Jens Guell / JAX)
 
 Status: Independent, highly compliant mobile-first developer with a portfolio deeply rooted in technical nomenclature.
 Empirical Matrix Output: 36 out of 36 distinct applications successfully captured (100% Discovery Rate). Remark: The correct number of mlisted products in the Apple AppStore is not matching with this search nevertheless. It should have been 39 at this point of time.
 Deduction: The 500 technical keywords operate with good perfection. The matrix successfully parses the deep data layer, fetching complex niche utilities relatively un-biased by brand authority.
 
-## 2.2 Case Study A: The Systemic Suppression of FabFilter
+### 2.2 Case Study A: The Systemic Suppression of FabFilter
 
 Status: Globally renowned, multi-award-winning premium desktop & mobile software provider.
 Empirical Matrix Output: Exactly 1 application captured (FabFilter Pro-Q 3) out of 12+ active live portfolio products (<10% Discovery Rate).
 Deduction: Despite immaculate technical metadata and identical distribution profiles, the search index completely omits the remaining standalone suite (Saturn, Twin, Timeless, Volcano, Pro-C). This is probably driven by an aggressive bundle-deduplication bug and hardware-compatibility assumptions that treat iPad-exclusive software as non-entities on the legacy API tier.
 
-## 2.3 Case Study B: The Homogeneous Prefix Lockout (Developer: Fred Anton Corvest / FAC)
+### 2.3 Case Study B: The Homogeneous Prefix Lockout (Developer: Fred Anton Corvest / FAC)
 
 Status: Legendary iOS-audio pioneer utilizing a rigid corporate branding prefix (FAC) across a highly uniform catalog of over 15 distinct plug-ins.
 Empirical Matrix Output: Exactly 11 applications captured.
@@ -70,4 +70,4 @@ Deduction: The omission of almost half the portfolio reveals an automated anti-s
 
 The empirical evidence gathered from 9,773 extracted entries and 858 localized AUv3 apps completely deconstructs the illusion of an unbiased, open marketplace digital registry. The primary gatekeeper’s search API actively masks, distorts, and suppresses the actual catalog of professional audio tools.
 
-Because the official channels fail to provide an honest readout—penalizing both technical precision (Spam-Filters) and platform specialization (iPad-only pruning) - the publication of independent, un-redacted databases and community-driven directories is the only viable method to break the artificial information monopoly of the platform gatekeeper and restore visibility to independent creators.
+Because the official channels fail to provide an honest readout - penalizing both technical precision (Spam-Filters) and platform specialization (iPad-only pruning) - the publication of independent, un-redacted databases and community-driven directories is the only viable method to break the artificial information monopoly of the platform gatekeeper and restore visibility to independent creators.
