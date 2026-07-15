@@ -41,7 +41,7 @@ The empirical data gathered proves that the public iTunes Search API does not op
 
 ## 1.1 The Post-Filtering Trajectory (The 190-Item Phenomenon)
 
-Our crawl logs reveal that technical search terms consistently yield non-rounded responses hovering between 150 and 195 results, never hitting the theoretical 200-limit ceiling. This proves a destructive filtering order of operations: The API fetches the top 200 matches across the entire global index first (Stage 2) and applies the genreId=6011 filter afterwards (Stage 3). Non-music apps are silently discarded from the pre-truncated 200-item pool, delivering an incomplete dataset to the researcher.
+Our crawl logs reveal that technical search terms consistently yield non-rounded responses hovering between 0 and 195 results, never hitting the theoretical 200-limit ceiling. This proves a destructive filtering order of operations: The API fetches the top 200 matches across the entire global index first (Stage 2) and applies the genreId=6011 filter afterwards (Stage 3). Non-music apps are silently discarded from the pre-truncated 200-item pool, delivering an incomplete dataset to the researcher.
 
 ## 1.2 The Absolute Absence of Lemmatization
 
