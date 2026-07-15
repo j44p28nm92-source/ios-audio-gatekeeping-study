@@ -36,7 +36,7 @@ The empirical data gathered proves that the public iTunes Search API does not op
 └────────────────────────────────────────────────────────┘
        │
        ▼
-[Final Result Pool: ~0-195 Items] -> (Premium iPad-only AUv3s probably completely suppressed)
+[Final Result Pool: ~0-195 Items] -> (Premium iPad-only AUv3s probably completely suppressed?)
 ```
 
 ## 1.1 The Post-Filtering Trajectory (The 190-Item Phenomenon)
