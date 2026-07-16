@@ -21,8 +21,9 @@ We're starting with a list of AUv3 AudioUnit apps. Please note that general list
 
 ### An Initial Search for ‚AUv3’
 
-[General AUv3 Listing](./listings/AUv3.md)
+[AUv3 Listing](./listings/AUv3.md)
 
+#
 ### Listings For Specific Commonly Used Search Terms (General Music Apps)
 
 [Search Term Listing Index](./listings/index.md)
@@ -31,7 +32,7 @@ We're starting with a list of AUv3 AudioUnit apps. Please note that general list
 ### Listings Of FREE Music Apps (including AudioUnits)
 Note: Many of the apps listed as "FREE" may contain in-app purchases.
 
-[FREE AudioUnits & Audio Apps](./listings/FREE.md)
+[FREE Music & Audio Apps](./listings/FREE.md)
 
 
 # Transparency
