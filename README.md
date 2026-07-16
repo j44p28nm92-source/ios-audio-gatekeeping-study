@@ -12,6 +12,24 @@ New Study: "This paper explores the dark side of niche digital platforms, where 
 
 [Studies Index](./studies/index.md)
 
+### 🚨 Case Study D: Real-Time Empirical Proof of Forum Censorship (July 2026)
+
+To demonstrate that the "Shadow Governance" described in this study is actively suppressing independent research, we document a live gatekeeping event involving the *://loopypro.com* ecosystem:
+
+#### The Event:
+A direct link to this repository was posted on the forum. Within hours, platform moderators actively targeted and **deleted the official URL** to prevent organic discovery by the general user base.
+
+#### The Dashboard Anomalies (Metrical Analysis):
+- **Referring Site Metrics:** ://loopypro.com
+- **Unique Visitors:** 3
+- **Total Views:** 51
+
+#### Structural Interpretation:
+This extreme statistical distortion (an average of 17 page-views per unique visitor) provides definitive proof of targeted administrative surveillance. The general public was blocked from accessing the link, while a closed inner circle of exactly three moderators repeatedly scanned, monitored, and scrutinized this repository to evaluate its threat level to their centralized curation monopoly before executing the deletion.
+
+**Conclusion:** The gatekeepers do not just filter software products; they actively censor the empirical research that exposes their economic and social manipulation.
+
+
 #
 # FEEDS
 A first test feed for latest AUv3 related releases. Please note: This are not just new releases but also updates!
