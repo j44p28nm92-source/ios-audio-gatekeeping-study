@@ -44,6 +44,11 @@ Regarding data collection transparency: All results are generated using Apple's 
 Please also note, that apps meight have applied local availability restrictions, set by the developers.
 
 #
+# YEARLY CATALOG STUDY
+
+This is coming soon.
+
+#
 # APPS
 
 ### AudioApp Researcher RT
