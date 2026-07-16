@@ -12,7 +12,7 @@ New Study: "This paper explores the dark side of niche digital platforms, where 
 
 [Studies Index](./studies/index.md)
 
-### 🚨 Case Study D: Real-Time Empirical Proof of Forum Censorship (July 2026)
+### 🚨 Case Study (extraordinary): Real-Time Empirical Proof of Forum Censorship (July 2026)
 
 To demonstrate that the "Shadow Governance" described in this study is actively suppressing independent research, we document a live gatekeeping event involving the *://loopypro.com* ecosystem:
 
