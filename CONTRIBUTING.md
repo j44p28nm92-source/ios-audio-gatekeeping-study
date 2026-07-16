@@ -1,4 +1,4 @@
-# 🤝 Contributing Guidelines
+# Contributing Guidelines
 
 First of all, thank you for monitoring the iOS audio ecosystem with us. This project is a strictly non-commercial, independent scientific study. We welcome contributions from developers, data scientists, and audio engineers who want to expose algorithmic gatekeeping and platform de-professionalization.
 
@@ -16,7 +16,7 @@ To protect the integrity of this forensic study and prevent sabotage from commer
 
 ---
 
-## 🛠️ How You Can Contribute
+## How You Can Contribute
 
 ### 1. Enhancing AI & Statistical Analysis (`/analysis`)
 We are actively looking for improvements in our Jupyter Notebooks and Python scripts regarding:
