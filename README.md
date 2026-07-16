@@ -67,7 +67,8 @@ Please also note, that apps meight have applied local availability restrictions,
 #
 # YEARLY Catalog Study (AUv3 exclusive)
 
-This is coming soon.
+This is coming soon [here](./catalogs/index.md)
+.
 
 #
 # APPS
