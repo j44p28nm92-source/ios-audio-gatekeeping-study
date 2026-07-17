@@ -10,3 +10,17 @@ It is critical to note that the *Real-Time Capture* of this study initiated in *
 2. **Prospective Observation Value:** While the historical decay cannot be retroactively mapped via this specific API stream, the strength of this study lies in its *prospective real-time observation*. From July 2026 onward, every newly registered release date, every silent deletion, every metadata modification, and every algorithmic ranking shift is captured with absolute daily granularity.
 
 **Analytical Shift:** Instead of a retrospective historical review, this database serves as a live, uncorrupted forensic laboratory. It documents the ongoing, day-by-day de-professionalization and structural erosion of the iOS audio market as it happens.
+
+
+[Yearly Report 2026](./Yearly%202026.md)
+[Yearly Report 2026](./Yearly%202025.md)
+[Yearly Report 2026](./Yearly%202024.md)
+[Yearly Report 2026](./Yearly%202023.md)
+[Yearly Report 2026](./Yearly%202022.md)
+[Yearly Report 2026](./Yearly%202021.md)
+[Yearly Report 2026](./Yearly%202020.md)
+[Yearly Report 2026](./Yearly%202019.md)
+[Yearly Report 2026](./Yearly%202018.md)
+[Yearly Report 2026](./Yearly%202017.md)
+[Yearly Report 2026](./Yearly%202016.md)
+[Yearly Report 2026](./Yearly%202015.md)
