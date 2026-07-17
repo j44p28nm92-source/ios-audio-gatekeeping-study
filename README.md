@@ -67,7 +67,7 @@ Please also note, that apps meight have applied local availability restrictions,
 #
 # YEARLY Catalog Study (AUv3 exclusive)
 
-A retrospective attempt to sort AUv3 plugins by release date: [here](./catalogs/index.md)
+A retrospective attempt to sort AUv3 plugins by release date: [here](./catalog/index.md)
 .
 
 #
