@@ -24,3 +24,5 @@ It is critical to note that the *Real-Time Capture* of this study initiated in *
 - [Yearly Report 2017](./Yearly%202017.pdf)
 - [Yearly Report 2016](./Yearly%202016.pdf)
 - [Yearly Report 2015](./Yearly%202015.pdf)
+
+Note: These documents are in PDF format. To activate the links, the files must be dowmloaded or opened in a new browser window.
