@@ -1,0 +1,1259 @@
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root, body.theme-light {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a2e;
+    --fg-secondary: #64648c;
+    --fg-tertiary: #9999b3;
+    --accent: #6366f1;
+    --accent-soft: rgba(99, 102, 241, 0.08);
+    --border: #e8e8f0;
+    --surface: #f8f8fc;
+    --code-bg: #f3f3f9;
+    --code-border: #e4e4ee;
+    --blockquote-bar: #c7c7d8;
+    --blockquote-fg: #6b6b8a;
+    --table-header: #f5f5fb;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #16161e;
+        --fg: #e4e4ef;
+        --fg-secondary: #9999b3;
+        --fg-tertiary: #666680;
+        --accent: #818cf8;
+        --accent-soft: rgba(129, 140, 248, 0.1);
+        --border: #2a2a3c;
+        --surface: #1e1e2e;
+        --code-bg: #1e1e2e;
+        --code-border: #2d2d40;
+        --blockquote-bar: #3a3a50;
+        --blockquote-fg: #8888a0;
+        --table-header: #1c1c2c;
+        --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+    }
+}
+
+/* Manual theme overrides — applied via body class. Take priority over
+   prefers-color-scheme. */
+body.theme-dark {
+    --bg: #16161e;
+    --fg: #e4e4ef;
+    --fg-secondary: #9999b3;
+    --fg-tertiary: #666680;
+    --accent: #818cf8;
+    --accent-soft: rgba(129, 140, 248, 0.1);
+    --border: #2a2a3c;
+    --surface: #1e1e2e;
+    --code-bg: #1e1e2e;
+    --code-border: #2d2d40;
+    --blockquote-bar: #3a3a50;
+    --blockquote-fg: #8888a0;
+    --table-header: #1c1c2c;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+* { box-sizing: border-box; }
+
+html {
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.75;
+    color: var(--fg);
+    background: var(--bg);
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 48px 80px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: 2.1em;
+    margin-top: 0;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid var(--border);
+}
+
+h2 {
+    font-size: 1.55em;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid var(--border);
+}
+
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.05em; font-weight: 600; }
+h5, h6 { font-size: 0.95em; font-weight: 600; color: var(--fg-secondary); }
+
+/* Text */
+p { margin: 1em 0; }
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+strong { font-weight: 600; }
+
+del { color: var(--fg-tertiary); }
+
+/* Code */
+code {
+    font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+    background: var(--code-bg);
+    border: 1px solid var(--code-border);
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-variant-ligatures: none;
+}
+
+pre {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    line-height: 1.55;
+    box-shadow: var(--shadow-sm);
+    margin: 1.5em 0;
+}
+
+pre code {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 0.85em;
+    border-radius: 0;
+}
+
+/* Blockquote */
+blockquote {
+    margin: 1.5em 0;
+    padding: 0.8em 1.2em;
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    border-radius: 0 8px 8px 0;
+    color: var(--blockquote-fg);
+}
+blockquote p { margin: 0.4em 0; }
+
+/* Lists */
+ul, ol { padding-left: 1.8em; margin: 1em 0; }
+li { margin: 0.35em 0; }
+li > p { margin: 0.25em 0; }
+
+li::marker {
+    color: var(--fg-tertiary);
+}
+
+/* Task lists */
+li.task-list-item {
+    list-style: none;          /* hide the bullet / number for task items */
+}
+li.task-list-item > p:first-of-type {
+    display: inline;           /* keep the label on the same line as the checkbox; a loose item's continuation paragraphs stay on their own line */
+}
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-right: 8px;
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+input[type="checkbox"]:checked::after {
+    content: '\2713';
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    font-size: 0.93em;
+}
+th, td {
+    padding: 10px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+th {
+    background: var(--table-header);
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--fg-secondary);
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--accent-soft); }
+
+/* HR */
+hr {
+    border: none;
+    height: 1px;
+    background: var(--border);
+    margin: 2.5em 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    margin: 1em 0;
+}
+
+/* Selection */
+::selection {
+    background: rgba(99, 102, 241, 0.25);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--fg-tertiary); }
+
+/* Live-reload flash */
+@keyframes mvReloadFlash {
+    0%   { box-shadow: inset 0 0 0 2px var(--accent); }
+    100% { box-shadow: inset 0 0 0 2px transparent; }
+}
+body.reloaded {
+    animation: mvReloadFlash 0.8s ease-out forwards;
+}
+
+/* Find highlights */
+mark.mvfind {
+    background: rgba(253, 224, 71, 0.50);
+    color: inherit;
+    border-radius: 2px;
+    padding: 0 1px;
+    outline: none;
+}
+mark.mvfind-active {
+    background: rgba(251, 146, 60, 0.80);
+    outline: 2px solid rgba(251, 146, 60, 0.95);
+    border-radius: 2px;
+}
+
+/* Mermaid diagrams – always light background for readability */
+.mermaid {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+    overflow-x: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #e0e0e8;
+}
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ── Maximizable components (hover ⤢ → fullscreen lightbox) ── */
+.mv-zoomable { position: relative; }
+.mv-zoomable.mv-inline { display: inline-block; }
+
+.mv-expand {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 6;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: var(--surface);
+    color: var(--fg-secondary);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .15s ease, color .15s ease, border-color .15s ease;
+}
+.mv-zoomable:hover > .mv-expand,
+.mv-expand:focus-visible { opacity: 1; }
+.mv-expand:hover { color: var(--accent); border-color: var(--accent); }
+
+/* Lightbox overlay */
+.mv-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    background: rgba(10, 10, 20, 0.82);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+.mv-lightbox[hidden] { display: none; }
+
+.mv-lightbox-toolbar {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px;
+    background: rgba(0, 0, 0, 0.25);
+}
+.mv-lightbox-toolbar button {
+    min-width: 34px;
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #f0f0f5;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background .15s ease;
+}
+.mv-lightbox-toolbar button:hover { background: rgba(255, 255, 255, 0.18); }
+.mv-lightbox-toolbar .mv-zoom-label {
+    min-width: 52px;
+    text-align: center;
+    color: #c8c8d4;
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+}
+.mv-lightbox-toolbar .mv-spacer { flex: 1 1 auto; }
+
+.mv-lightbox-stage {
+    flex: 1 1 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    cursor: grab;
+}
+.mv-lightbox-stage.mv-grabbing { cursor: grabbing; }
+
+.mv-lightbox-content {
+    display: inline-block;
+    transform-origin: center center;
+    will-change: transform;
+    user-select: none;
+    -webkit-user-select: none;
+    /* Opaque card so transparent content (e.g. tables) stays legible
+       and the page behind never bleeds through the backdrop. */
+    background: var(--bg);
+    border-radius: 10px;
+}
+.mv-lightbox-content > * { margin: 0 !important; }
+.mv-lightbox-content .mermaid { border: none; }
+.mv-lightbox-content > img { max-width: none; box-shadow: none; }
+.mv-lightbox-content > table { width: auto; }
+.mv-lightbox-content > pre { max-height: none; overflow: visible; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+</head>
+<body class="">
+<h2 id="yearly-report-2019-auv3-92">Yearly Report 2019 AUv3 (92)</h2>
+<p>(created: 2026-07-17 05:33:46 +0000)</p>
+<div class="mv-zoomable"><table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>App Name</th>
+<th>Price</th>
+<th>AppStore Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/c0/9d/ce/c09dce9b-430b-bec2-48be-b63d08e690d9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br><strong>Stereo Width Control</strong><br> 📱 ⬛️</td>
+<td><code>$5.99</code></td>
+<td><a href="https://apps.apple.com/us/app/stereo-width-control/id1493044617?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/9a/cc/a09acc32-c5ea-3ffc-cebb-377b21359937/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">MIDIculous LLC</small><br><strong>IMPULSation</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/impulsation/id1469723900?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.1.11</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/0b/5e/7b/0b5e7b1b-2dc5-144a-2690-339844d440b0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Eventide</small><br><strong>QVox</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/qvox/id1488786684?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.13</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/78/ca/87/78ca8723-2328-aa6a-88f6-5c0119fc219a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Coda Labs Incorporated</small><br><strong>AudioKit L7 - AUv3 Live Looper</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$2.99</code></td>
+<td><a href="https://apps.apple.com/us/app/audiokit-l7-auv3-live-looper/id1485507635?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.42</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/3b/d0/af/3bd0af7a-62f9-a656-27eb-6ce23956d77a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Harry Gohs</small><br><strong>VoxSyn Pro</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$1.99</code></td>
+<td><a href="https://apps.apple.com/us/app/voxsyn-pro/id1486614433?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.1.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d9/5f/82/d95f8222-8f19-7b62-49af-32d4ee797931/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Ryan Robinson</small><br><strong>SDS-x — Simple Drum Sampler</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/sds-x-simple-drum-sampler/id1468026221?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.0.5</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/a3/b6/66/a3b6665c-fe8f-ccdf-c429-87be76fbfb60/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Caelum Audio</small><br><strong>Tape Cassette</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️  ⌚️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/tape-cassette/id1488648013?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.5.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/15/45/36154515-555c-9597-8f51-59fbe369bf8d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Kai Aras</small><br><strong>ShockWave - Synth Module</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$19.99</code></td>
+<td><a href="https://apps.apple.com/us/app/shockwave-synth-module/id1449844670?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.1.6</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/e9/e8/2be9e807-70a8-f491-f74d-a94c6d72f33b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">RRS, OOO</small><br><strong>EQ560</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/eq560/id1486125569?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 3.0.3</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f3/a6/8e/f3a68e22-a25e-5010-0b2f-b7347e022210/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Eventide</small><br><strong>MangledVerb</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/mangledverb/id1463787067?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.7.21</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/f0/7b/9ef07be7-3580-7899-3b2b-d47324d609fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">MIDIculous LLC</small><br><strong>Neo-Soul Keys® Studio 2</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$24.99</code></td>
+<td><a href="https://apps.apple.com/us/app/neo-soul-keys-studio-2/id1482448438?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.3.14</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/1e/f4/2d1ef4f6-b8f5-9888-f920-3b6531cf0ec2/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Flux - Liquid Audio</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$12.99</code></td>
+<td><a href="https://apps.apple.com/us/app/flux-liquid-audio/id1488460522?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.07</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7a/ae/f2/7aaef27d-0a1d-8f90-8f82-c97a2e1deeaf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br><strong>Noise Gate &amp; Downward Expander</strong><br> 📱 ⬛️</td>
+<td><code>$5.99</code></td>
+<td><a href="https://apps.apple.com/us/app/noise-gate-downward-expander/id1488081633?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.4</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/42/43/3d42433e-966e-cad1-51a7-aef8d4f65ff0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Dmitrij Pavlov</small><br><strong>Pure Acid</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$14.99</code></td>
+<td><a href="https://apps.apple.com/us/app/pure-acid/id1481283602?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.5.6</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/1f/83/eb1f8389-b13c-26dc-7f36-66560bcfff6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">ToneBoosters</small><br><strong>TB Morphit</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/tb-morphit/id1487595036?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.1.8</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/89/78/0b/89780b4d-8d47-f5b4-69bb-04bd5a7353f0/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Kai Aras</small><br><strong>FD-1 Filter Delay</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/fd-1-filter-delay/id1448696965?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.1.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/17/72/7c/17727ce5-8d1f-bcf1-f32d-9f1112da62b8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Cem Olcay</small><br><strong>RhythmBud - AUv3 MIDI FX</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$3.99</code></td>
+<td><a href="https://apps.apple.com/us/app/rhythmbud-auv3-midi-fx/id1484320891?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.3.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/7e/a6/f47ea6aa-a3af-8455-b1f9-04d3710d6ecc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">ToneBoosters</small><br><strong>TB Enhancer</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$6.99</code></td>
+<td><a href="https://apps.apple.com/us/app/tb-enhancer/id1484449791?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.6.8</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/21/7c/65/217c65db-a868-5e86-07de-effeabb4cde5/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Polyverse Music</small><br><strong>Wider by Infected Mushroom</strong><br> 📱 ⬛️  ⌚️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/wider-by-infected-mushroom/id1338262710?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/8f/72/d18f727c-d64d-bb00-6c26-8e6cd123ab68/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>MultiTrack Recorder Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$10.99</code></td>
+<td><a href="https://apps.apple.com/us/app/multitrack-recorder-plugin/id1483833410?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.26</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/80/53/508053f8-268a-546c-a74e-12055bfb6e78/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">iceWorks, Inc.</small><br><strong>Lagrange - AUv3 Plug-in Synth</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.00</code></td>
+<td><a href="https://apps.apple.com/us/app/lagrange-auv3-plug-in-synth/id1479000758?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.3.3</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/2f/31/082f3171-d74b-d393-85bd-e185182b1026/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br><strong>Visual Mixer</strong><br> 📱 ⬛️</td>
+<td><code>$4.99</code></td>
+<td><a href="https://apps.apple.com/us/app/visual-mixer/id1482739499?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.1.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/d5/bb/e1d5bba8-807f-9df3-87cc-b7bb044b4d92/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Alexander Zolotov</small><br><strong>Fractal Bits</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$1.99</code></td>
+<td><a href="https://apps.apple.com/us/app/fractal-bits/id1482725385?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2b</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/b0/ab/c0b0abe8-ee9a-0d53-0183-060d7584a402/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">James Milton</small><br><strong>Poly 2</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/poly-2/id1477029326?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.5.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/f9/b9/71/f9b9711d-27de-97a8-ddd1-430e61d0980b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Eventide</small><br><strong>Rotary Mod</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$3.99</code></td>
+<td><a href="https://apps.apple.com/us/app/rotary-mod/id1463786028?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.19</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/4d/bf/334dbf43-32e3-498f-9879-71b14d17a78b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">ToneBoosters</small><br><strong>TB ReelBus</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/tb-reelbus/id1482450479?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 4.8.9</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/80/57/61/805761e1-55d1-4035-5d5d-4b40d75daf1d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Sonosaurus LLC</small><br><strong>yaleD - Reverse Delay</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️  ⌚️</td>
+<td><code>$1.99</code></td>
+<td><a href="https://apps.apple.com/us/app/yaled-reverse-delay/id1477503080?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/2d/3c/e22d3c31-b496-6fc3-52d7-bec6917f1a20/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Corne Driesprong</small><br><strong>cykle</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$12.99</code></td>
+<td><a href="https://apps.apple.com/us/app/cykle/id1187680637?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.5.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/1f/15/1d1f15a2-e3b9-2a21-ade4-e5d519c797d8/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">MIFKI PTY LTD</small><br><strong>miRack</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️ 🖥️</td>
+<td><code>$14.99</code></td>
+<td><a href="https://apps.apple.com/us/app/mirack/id1468259834?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 4.55</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/30/c1/5830c110-6d6a-b60e-3e9b-4e24b240d334/AppIconIOS-1x_U007emarketing-0-8-0-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Roland Corporation</small><br><strong>Roland Zenbeats</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/roland-zenbeats/id1473380367?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 3.1.12</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/6c/a7/a86ca77d-84d0-4257-b098-ae6075c308a9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">ToneBoosters</small><br><strong>TB Barricade</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/tb-barricade/id1480150563?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 4.8.8</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/93/f1/6d93f1af-64cb-fead-b43c-37823437baa5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>DigiStix Drummer AUv3 Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/digistix-drummer-auv3-plugin/id1479370932?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.33</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/50/ef/b6/50efb641-9481-d60f-d883-87f5d0ffc878/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Ryo Togawa</small><br><strong>VADrumSM</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/vadrumsm/id1474193057?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.9.10</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/b9/97/df/b997dfd4-5355-9b70-ffac-6967e714f089/AppIcon-1x_U007emarketing-0-10-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Klevgränd produkter AB</small><br><strong>Haaze 2</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$16.49</code></td>
+<td><a href="https://apps.apple.com/us/app/haaze-2/id1478120819?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.1.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/8b/1a/c98b1acd-dbf2-37cf-2c1b-ba0aa946baf9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">MIDIculous LLC</small><br><strong>iFX Rack</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/ifx-rack/id1462580765?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2.9</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/13/c8/2e/13c82ebe-fd23-57c8-335e-b932e68122a6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Eventide</small><br><strong>MicroPitch</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$4.99</code></td>
+<td><a href="https://apps.apple.com/us/app/micropitch/id1463785645?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.31</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/60/00/c9/6000c97d-e324-c853-81ec-b5ff0976e220/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Eventide</small><br><strong>UltraTap Delay</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/ultratap-delay/id1463784516?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.7.21</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/c5/24/c4c52442-4bb9-5600-cf40-d18a42996838/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">ToneBoosters</small><br><strong>TB Reverb</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/tb-reverb/id1474944185?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 4.8.8</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/eb/97/b9eb97d0-d4cf-a831-d94c-bb94ca624a64/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Visual Multi-Band Compressor</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/visual-multi-band-compressor/id1474969434?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.02</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/9b/af/da/9bafda63-fab6-f36a-0d2b-a49918ef6d3f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Eventide</small><br><strong>Blackhole Reverb</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/blackhole-reverb/id1452345570?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 3.8.20</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/40/cc/5840cc4b-1cc9-87d3-77aa-2d9976171362/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Sequence Mediaworks LLC</small><br><strong>ANILOG</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$5.99</code></td>
+<td><a href="https://apps.apple.com/us/app/anilog/id1466584323?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.8.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/a8/ff/75a8ff34-09b1-7982-ecf1-820831d082b6/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Jens Guell</small><br><strong>JAX Stereo Tool (AU)</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$5.99</code></td>
+<td><a href="https://apps.apple.com/us/app/jax-stereo-tool-au/id1473390302?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.4</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/2d/2b/a52d2b22-8aea-736d-b6a6-3d714e94249e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">ToneBoosters</small><br><strong>TB Equalizer</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/tb-equalizer/id1473111210?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 4.8.9</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c0/b5/8e/c0b58ec8-e343-b803-99dc-1774a5b12088/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Jens Guell</small><br><strong>JAF Model One</strong><br> 📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/jaf-model-one/id1472652593?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.5</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/83/7d/1d837d48-8129-c931-2887-ba0c6ac74592/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Visual Reverb AUv3 Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/visual-reverb-auv3-plugin/id1472169417?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.06</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7d/02/4f/7d024fb6-51b7-62a3-b654-790a7be4845c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Jens Guell</small><br><strong>JAF Collection</strong><br> 📱 ⬛️</td>
+<td><code>$12.99</code></td>
+<td><a href="https://apps.apple.com/us/app/jaf-collection/id1472896422?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.5</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/e5/7f/20e57ff6-956f-4b61-3fd6-dcbdb39e8366/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Time Machine AUv3 Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/time-machine-auv3-plugin/id1472980119?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.05</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/5d/01/be/5d01bedd-5b9a-bb9c-5a1c-a9a65c0e9c5e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br><strong>Velocity Filter</strong><br> 📱 ⬛️</td>
+<td><code>$2.99</code></td>
+<td><a href="https://apps.apple.com/us/app/velocity-filter/id1473094671?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.5</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/91/9e/01919e74-766d-d2d9-0354-6ebfc716d790/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Visual EQ Console AUv3 Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/visual-eq-console-auv3-plugin/id1469451699?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.14</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/fd/ee/0bfdee4a-ae20-76cc-5af0-9da4d02cdf44/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">FabFilter</small><br><strong>FabFilter Pro-Q 3</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>   ⬛️</td>
+<td><code>$29.99</code></td>
+<td><a href="https://apps.apple.com/us/app/fabfilter-pro-q-3/id1469019469?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 3.28</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/63/6b/f5636b0a-b645-9e7a-c5a3-461495125508/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">BLEASS</small><br><strong>BLEASS Filter</strong><br> 📱 ⬛️</td>
+<td><code>$3.99</code></td>
+<td><a href="https://apps.apple.com/us/app/bleass-filter/id1464916830?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.4.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/e0/1f/d3/e01fd3b2-2973-ae16-305d-91ad6d3114a4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br><strong>Binaural Location</strong><br> 📱 ⬛️</td>
+<td><code>$4.99</code></td>
+<td><a href="https://apps.apple.com/us/app/binaural-location/id1467869713?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.7</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7c/18/1a/7c181a14-89ab-e265-c12c-1c62c917a0c4/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Vocal Soloist AUv3 Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/vocal-soloist-auv3-plugin/id1466786161?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.09</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cd/19/6c/cd196c52-2bf3-9a46-d67f-a239184d129f/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Bryce Hostetler</small><br><strong>Tonality: Music Theory</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/tonality-music-theory/id1467552236?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 10.1.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/0b/cd/960bcd11-bcce-f8be-163b-56e75e1d0b79/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br><strong>Mix Bus Compressor</strong><br> 📱 ⬛️</td>
+<td><code>$5.99</code></td>
+<td><a href="https://apps.apple.com/us/app/mix-bus-compressor/id1467711076?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.10</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/23/01/c32301fa-3e4c-89be-a996-d1fd06a64bfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">MIDIculous LLC</small><br><strong>Pure Synth® Platinum</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/pure-synth-platinum/id1459688500?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.6.11</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/81/17/bf81178f-e6c5-d49b-1485-d0359550ae7a/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Alexander Zolotov</small><br><strong>Virtual ANS 3</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$5.99</code></td>
+<td><a href="https://apps.apple.com/us/app/virtual-ans-3/id1465860248?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 3.0.4</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/ec/07/33ec07bc-8919-18be-5181-121cef6a0f21/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Christian Siedschlag</small><br><strong>MagicDeathEye DDMF compressor</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$24.99</code></td>
+<td><a href="https://apps.apple.com/us/app/magicdeatheye-ddmf-compressor/id1466360561?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2.6</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/26/f0/2826f00f-06aa-c40c-fb2b-bfe9a10b78d4/AppIcon-1-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Woodman’s Immaculate Maple Syrup Studio</small><br><strong>WoodStepper</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$10.99</code></td>
+<td><a href="https://apps.apple.com/us/app/woodstepper/id1464904963?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 4.1.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/81/94/04/8194047e-846c-8cb7-8029-a1bdf6b49896/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">DiscoDSP LLC</small><br><strong>OB-Xd AUv3 Synth</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$14.99</code></td>
+<td><a href="https://apps.apple.com/us/app/ob-xd-auv3-synth/id1465262829?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.16</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/93/7a/5a/937a5a21-2e8f-1fcd-1e29-e2b2c15f9fef/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">BLEASS</small><br><strong>BLEASS Sidekick</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$6.99</code></td>
+<td><a href="https://apps.apple.com/us/app/bleass-sidekick/id1462418779?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.4</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/4a/6f/684a6fb9-dcd8-4727-2139-bf3149e20407/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Bram Bos</small><br><strong>Mozaic Plugin Workshop</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$1.99</code></td>
+<td><a href="https://apps.apple.com/us/app/mozaic-plugin-workshop/id1457962653?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.4.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/9e/57/339e578a-7afc-c4c0-d26b-59b8becb193d/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Markus Teufel</small><br><strong>OCTACHRON MIDI Drum Sequencer</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$4.99</code></td>
+<td><a href="https://apps.apple.com/us/app/octachron-midi-drum-sequencer/id1453137215?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.2.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/62/aa/b662aa30-df45-ce33-9834-8cf4022d6774/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>De-Esser AUv3 Audio Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/de-esser-auv3-audio-plugin/id1462171273?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.02</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/ca/c4/a0cac48e-d15e-ba86-e382-ffb903a18aef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">George Rosar</small><br><strong>Dexed Synth</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$3.99</code></td>
+<td><a href="https://apps.apple.com/us/app/dexed-synth/id1462551596?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2.3</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/c5/4d/a1c54d32-32f9-b6e6-2e72-3d149684d6d0/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Imaginando Lda</small><br><strong>K7D - Tape Delay</strong><br> 📱 ⬛️</td>
+<td><code>$5.39</code></td>
+<td><a href="https://apps.apple.com/us/app/k7d-tape-delay/id1460245991?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.4.3</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/c9/c0/ddc9c05e-262f-a347-ea30-c3de49b0f495/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Audio Damage, Inc.</small><br><strong>ChannelStrip</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$3.99</code></td>
+<td><a href="https://apps.apple.com/us/app/channelstrip/id1460842455?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.1.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/e1/c2/66e1c225-f819-dc3c-64dd-d1c55246584a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">MIDIculous LLC</small><br><strong>BASSalicious 2</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$14.99</code></td>
+<td><a href="https://apps.apple.com/us/app/bassalicious-2/id1459637872?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.4.7</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/42/f8/fd/42f8fd69-f0e9-239e-df3c-759867247600/BanditiOSAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Frederic Corvest</small><br><strong>FAC Bandit</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$9.99</code></td>
+<td><a href="https://apps.apple.com/us/app/fac-bandit/id1458633968?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/fd/b0/eb/fdb0ebe7-f23f-8774-ab5e-01f7aa2c0d8c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Blue Mangoo Consulting Company Limited</small><br><strong>Stereo Lag Time</strong><br> 📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/stereo-lag-time/id1459615373?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.6</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/20/22/a5/2022a5e0-4796-7efa-7f0f-c272415dad83/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Cem Olcay</small><br><strong>StepBud - AUv3 MIDI Sequencer</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$3.99</code></td>
+<td><a href="https://apps.apple.com/us/app/stepbud-auv3-midi-sequencer/id1453104408?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.8</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/8b/c1/f28bc174-2054-995d-2b69-e6c3c34f601d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">BLEASS</small><br><strong>BLEASS Reverb</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$6.99</code></td>
+<td><a href="https://apps.apple.com/us/app/bleass-reverb/id1457212864?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.5.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/66/d3/6866d39b-384b-efdb-deee-d82d0ddc10c0/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Harmonic Exciter AUv3 Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/harmonic-exciter-auv3-plugin/id1458704222?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.03</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/95/1c/f7951ce3-9a22-13cb-ad2e-3f1d1eb31229/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">TAQS.IM</small><br><strong>World Piano Notes &amp; Drum Beats</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/world-piano-notes-drum-beats/id1457405203?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 7.40</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/3c/c6/0f3cc6c0-f620-061d-051c-a3e59eed6f7a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Chameleon AUv3 Sampler Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$12.99</code></td>
+<td><a href="https://apps.apple.com/us/app/chameleon-auv3-sampler-plugin/id1456474953?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.27</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/3a/66/56/3a6656d8-f3a6-e72c-9a51-79b8fe50076a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Indigogo</small><br><strong>WaveScope for Logic Pro</strong><br> 📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/wavescope-for-logic-pro/id1456540213?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.0.5</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/7b/51/e1/7b51e168-ffa1-7398-eda0-7fbb7d8cdf3f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">ANTHONY DI FURIA</small><br><strong>Esoteric Synth</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$4.99</code></td>
+<td><a href="https://apps.apple.com/us/app/esoteric-synth/id1454932009?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.3</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/35/1a/92351a0b-4414-c99d-7b20-505f60662d3b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Audio Damage, Inc.</small><br><strong>Enso Looper</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/enso-looper/id1449640589?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.3.3</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/24/09/7d240988-aad0-25bb-931e-5c11b7814f4b/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Fingerlab</small><br><strong>SK-51 - Lofi Keyboard Sampler</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️ 🖥️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/sk-51-lofi-keyboard-sampler/id1388248180?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 4.2.3</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f1/1a/ab/f11aab6e-18b3-8d1b-8f4e-dd872ea84385/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">anthony saunders</small><br><strong>Polythemus AU</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$3.99</code></td>
+<td><a href="https://apps.apple.com/us/app/polythemus-au/id1439815017?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/9f/ab/889fab9d-a0bb-80e5-bde4-dd369acf44e3/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Mazbox Limited</small><br><strong>Koala Sampler • Beat Maker</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$4.99</code></td>
+<td><a href="https://apps.apple.com/us/app/koala-sampler-beat-maker/id1449584007?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.0.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/4e/b6/13/4eb613ed-f212-8c1d-a202-c82bd9f2d19c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Alexander Ewering</small><br><strong>Xequence AU - Pads</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$2.99</code></td>
+<td><a href="https://apps.apple.com/us/app/xequence-au-pads/id1453556216?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/4e/15/3c/4e153c72-96bf-ec63-2cf0-f8b2f6791fe6/AppIcon-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Alexander Ewering</small><br><strong>Xequence AU - Keys</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$2.99</code></td>
+<td><a href="https://apps.apple.com/us/app/xequence-au-keys/id1453028249?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.2.1</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/1f/e4/261fe4ca-989d-9823-79c2-56963c030472/FilteriOSAppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">BLEASS</small><br><strong>BLEASS Delay</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$6.99</code></td>
+<td><a href="https://apps.apple.com/us/app/bleass-delay/id1448509525?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.8.0</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/83/e5/f183e5fd-1750-5860-d50b-f6ab70419273/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Brad Howes</small><br><strong>SoundFonts</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/soundfonts/id1453325077?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 2.32.5</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/f2/16/fcf21654-b1cf-08f0-9ca6-65e707cead3c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">4Pockets.com</small><br><strong>Shimmer AUv3 Audio Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$7.99</code></td>
+<td><a href="https://apps.apple.com/us/app/shimmer-auv3-audio-plugin/id1451968439?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.06</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/62/61/3162615d-acbd-89d4-10b8-759efc939952/AppIcon-1-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Woodman’s Immaculate Maple Syrup Studio</small><br><strong>WoodLofier</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$8.99</code></td>
+<td><a href="https://apps.apple.com/us/app/woodlofier/id1452052628?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.4.2</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/9a/d4/8a/9ad48ad3-8e9c-5b38-94da-96851c365b65/AppIcon-0-1x_U007emarketing-0-85-220-0-10.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Audeonic Apps</small><br><strong>mfxStrip</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$2.99</code></td>
+<td><a href="https://apps.apple.com/us/app/mfxstrip/id1451194722?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.4</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/f1/8d/d8/f18dd8c4-d691-7734-c572-e290ea353dc9/AppIcon-0-1x_U007emarketing-0-85-220-0-10.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Audeonic Apps</small><br><strong>mfxMonitor</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>FREE</code></td>
+<td><a href="https://apps.apple.com/us/app/mfxmonitor/id1451193551?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.4</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/80/73/8c/80738cb2-e8ce-6a00-ebc6-7c88c66a0282/AppIcon-0-1x_U007emarketing-0-85-220-0-10.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Audeonic Apps</small><br><strong>mfxConvert</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$2.99</code></td>
+<td><a href="https://apps.apple.com/us/app/mfxconvert/id1451192046?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.5</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/55/95/f15595a2-5599-9882-f3d6-cba8fd6498ca/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Synclavier Digital Corporation Ltd</small><br><strong>Synclavier Go! App and Plugin</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$19.99</code></td>
+<td><a href="https://apps.apple.com/us/app/synclavier-go-app-and-plugin/id1378108734?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.30.28</small></td>
+</tr>
+<tr>
+<td><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/92/6e/70926e12-92d6-75eb-1a76-29bd442e3a8e/AppIcon-1x_U007emarketing-0-9-0-0-85-220.png/100x100bb.jpg" width="60" height="60" style="border-radius: 10px;"></td>
+<td><small style="color: #8a8a8a;">Igor Vasiliev</small><br><strong>SynthScaper LE</strong><br>🏷️ <small style="color: #8a8a8a;">[auv3]</small>  📱 ⬛️</td>
+<td><code>$4.99</code></td>
+<td><a href="https://apps.apple.com/us/app/synthscaper-le/id1445569079?uo=4">Show in AppStore</a><br> <small style="color: #8a8a8a;">actual v. 1.3.2</small></td>
+</tr>
+</tbody>
+</table><button type="button" class="mv-expand" title="Maximize" aria-label="Maximize">⤢</button></div>
+<h1 id=""></h1>
+<h3 id="legal-disclaimer">Legal Disclaimer</h3>
+<p>This data is fetched from the official public Apple API. All app names, developer names, prices, and icons are the intellectual property of Apple Inc. or their respective owners. Pricing and availability are snapshots and subject to change.</p>
+
+<script>
+// ── Find engine ──────────────────────────────────────────────
+window._mvFind = (function() {
+    var matches = [], current = -1;
+
+    function escapeRe(s) {
+        return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function clearMarks() {
+        document.querySelectorAll('mark.mvfind').forEach(function(m) {
+            var t = document.createTextNode(m.textContent);
+            m.parentNode.replaceChild(t, m);
+        });
+        // Merge adjacent text nodes so next search works correctly
+        document.body.normalize();
+        matches = []; current = -1;
+    }
+
+    function highlight() {
+        matches.forEach(function(m, i) {
+            m.className = (i === current) ? 'mvfind mvfind-active' : 'mvfind';
+        });
+        if (matches[current]) {
+            matches[current].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+
+    return {
+        search: function(term) {
+            clearMarks();
+            if (!term) return 0;
+            var re = new RegExp(escapeRe(term), 'gi');
+            var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+                acceptNode: function(n) {
+                    var tag = n.parentElement && n.parentElement.tagName;
+                    if (tag === 'SCRIPT' || tag === 'STYLE') return NodeFilter.FILTER_REJECT;
+                    return NodeFilter.FILTER_ACCEPT;
+                }
+            });
+            var nodes = [];
+            while (walker.nextNode()) nodes.push(walker.currentNode);
+            nodes.forEach(function(node) {
+                var text = node.textContent;
+                if (!re.test(text)) { re.lastIndex = 0; return; }
+                re.lastIndex = 0;
+                var frag = document.createDocumentFragment(), last = 0, m;
+                while ((m = re.exec(text)) !== null) {
+                    if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+                    var mark = document.createElement('mark');
+                    mark.className = 'mvfind';
+                    mark.textContent = m[0];
+                    matches.push(mark);
+                    frag.appendChild(mark);
+                    last = re.lastIndex;
+                }
+                if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+                node.parentNode.replaceChild(frag, node);
+            });
+            if (matches.length > 0) { current = 0; highlight(); }
+            return matches.length;
+        },
+        next: function() {
+            if (!matches.length) return;
+            current = (current + 1) % matches.length;
+            highlight();
+        },
+        prev: function() {
+            if (!matches.length) return;
+            current = (current - 1 + matches.length) % matches.length;
+            highlight();
+        },
+        clear: clearMarks
+    };
+})();
+</script>
+<script>
+// Task-list checkboxes: report toggles back to Swift so the Markdown source updates.
+document.addEventListener('change', function(e) {
+    var el = e.target;
+    if (!el || !el.matches || !el.matches('input[type="checkbox"][data-task-index]')) return;
+    var idx = parseInt(el.getAttribute('data-task-index'), 10);
+    if (!isNaN(idx) && window.webkit && window.webkit.messageHandlers &&
+        window.webkit.messageHandlers.checkboxToggled) {
+        window.webkit.messageHandlers.checkboxToggled.postMessage({ index: idx, checked: el.checked });
+    }
+});
+</script>
+<script>
+(function() {
+    // Mermaid: always use default (light) theme so diagram text is legible.
+    // Rendered explicitly via mermaid.run() in the maximize script below,
+    // so the ⤢ buttons can be attached only after the SVGs exist.
+    mermaid.initialize({
+        startOnLoad: false,
+        theme: 'default',
+        securityLevel: 'loose',
+        fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, sans-serif'
+    });
+
+    // Zoom: Ctrl+scroll and Ctrl++/- / Ctrl+0
+    let scale = 1.0;
+    const MIN = 0.4, MAX = 4.0, STEP = 0.1;
+
+    function applyZoom() {
+        document.body.style.transformOrigin = 'top center';
+        document.body.style.transform = 'scale(' + scale + ')';
+        // Keep the scrollable area sized correctly so scrollbars don't disappear
+        document.body.style.width = (100 / scale) + '%';
+    }
+
+    window.addEventListener('wheel', function(e) {
+        if (!e.ctrlKey && !e.metaKey) return;
+        e.preventDefault();
+        const delta = e.deltaY > 0 ? -STEP : STEP;
+        scale = Math.min(MAX, Math.max(MIN, +(scale + delta).toFixed(2)));
+        applyZoom();
+    }, { passive: false });
+
+    window.addEventListener('keydown', function(e) {
+        if (!e.ctrlKey && !e.metaKey) return;
+        if (e.key === '=' || e.key === '+') {
+            e.preventDefault();
+            scale = Math.min(MAX, +(scale + STEP).toFixed(2));
+            applyZoom();
+        } else if (e.key === '-') {
+            e.preventDefault();
+            scale = Math.max(MIN, +(scale - STEP).toFixed(2));
+            applyZoom();
+        } else if (e.key === '0') {
+            e.preventDefault();
+            scale = 1.0;
+            applyZoom();
+        }
+    });
+})();
+</script>
+<script>
+// ── Per-component maximize: hover ⤢ → fullscreen pan/zoom lightbox ──
+(function() {
+    var EXPAND = '&#x2922;';
+    function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
+
+    // Lightbox singleton state
+    var box, stage, content, label;
+    var scale = 1, tx = 0, ty = 0;
+    var MIN = 0.1, MAX = 10;
+
+    function apply() {
+        content.style.transform =
+            'translate(' + tx + 'px,' + ty + 'px) scale(' + scale + ')';
+        label.textContent = Math.round(scale * 100) + '%';
+    }
+    function zoomBy(f) { scale = clamp(scale * f, MIN, MAX); apply(); }
+    function fit() {
+        var cw = content.offsetWidth, ch = content.offsetHeight;
+        if (!cw || !ch) { scale = 1; tx = 0; ty = 0; apply(); return; }
+        var sw = stage.clientWidth - 80, sh = stage.clientHeight - 80;
+        scale = clamp(Math.min(sw / cw, sh / ch), MIN, 4);
+        tx = 0; ty = 0;
+        apply();
+    }
+
+    function buildLightbox() {
+        box = document.createElement('div');
+        box.className = 'mv-lightbox';
+        box.hidden = true;
+        box.innerHTML =
+            '<div class="mv-lightbox-toolbar">' +
+                '<button data-act="out" title="Zoom out">&#x2212;</button>' +
+                '<span class="mv-zoom-label">100%</span>' +
+                '<button data-act="in" title="Zoom in">+</button>' +
+                '<button data-act="fit" title="Fit to screen">Fit</button>' +
+                '<button data-act="reset" title="Actual size">1:1</button>' +
+                '<span class="mv-spacer"></span>' +
+                '<button data-act="close" title="Close (Esc)">&#x2715;</button>' +
+            '</div>' +
+            '<div class="mv-lightbox-stage"><div class="mv-lightbox-content"></div></div>';
+        document.body.appendChild(box);
+        stage = box.querySelector('.mv-lightbox-stage');
+        content = box.querySelector('.mv-lightbox-content');
+        label = box.querySelector('.mv-zoom-label');
+
+        box.querySelector('.mv-lightbox-toolbar').addEventListener('click', function(e) {
+            var b = e.target.closest('button');
+            if (!b) return;
+            var act = b.getAttribute('data-act');
+            if (act === 'in') zoomBy(1.25);
+            else if (act === 'out') zoomBy(1 / 1.25);
+            else if (act === 'fit') fit();
+            else if (act === 'reset') { scale = 1; tx = 0; ty = 0; apply(); }
+            else if (act === 'close') closeBox();
+        });
+
+        stage.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            zoomBy(e.deltaY < 0 ? 1.12 : 1 / 1.12);
+        }, { passive: false });
+
+        // Drag to pan; a click on empty stage (no drag) closes
+        var down = false, moved = false, sx = 0, sy = 0, ox = 0, oy = 0;
+        stage.addEventListener('mousedown', function(e) {
+            down = true; moved = false;
+            sx = e.clientX; sy = e.clientY; ox = tx; oy = ty;
+            stage.classList.add('mv-grabbing');
+        });
+        window.addEventListener('mousemove', function(e) {
+            if (!down) return;
+            var dx = e.clientX - sx, dy = e.clientY - sy;
+            if (Math.abs(dx) > 3 || Math.abs(dy) > 3) moved = true;
+            tx = ox + dx; ty = oy + dy;
+            apply();
+        });
+        window.addEventListener('mouseup', function(e) {
+            if (!down) return;
+            down = false;
+            stage.classList.remove('mv-grabbing');
+            if (!moved && e.target === stage) closeBox();
+        });
+
+        window.addEventListener('keydown', function(e) {
+            if (box.hidden) return;
+            if (e.key === 'Escape') { e.preventDefault(); closeBox(); }
+            else if (e.key === '+' || e.key === '=') { e.preventDefault(); zoomBy(1.25); }
+            else if (e.key === '-') { e.preventDefault(); zoomBy(1 / 1.25); }
+            else if (e.key === '0') { e.preventDefault(); fit(); }
+        });
+    }
+
+    function openBox(srcEl) {
+        if (!box) buildLightbox();
+        content.innerHTML = '';
+        content.appendChild(srcEl.cloneNode(true));
+        box.hidden = false;
+        document.body.style.overflow = 'hidden';
+        requestAnimationFrame(fit);
+    }
+    function closeBox() {
+        box.hidden = true;
+        content.innerHTML = '';
+        document.body.style.overflow = '';
+    }
+
+    function makeZoomable(el, inline) {
+        if (!el || el.closest('.mv-zoomable')) return;
+        var wrap = document.createElement(inline ? 'span' : 'div');
+        wrap.className = 'mv-zoomable' + (inline ? ' mv-inline' : '');
+        el.parentNode.insertBefore(wrap, el);
+        wrap.appendChild(el);
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'mv-expand';
+        btn.title = 'Maximize';
+        btn.setAttribute('aria-label', 'Maximize');
+        btn.innerHTML = EXPAND;
+        wrap.appendChild(btn);
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            openBox(el);
+        });
+    }
+
+    function setupCommon() {
+        document.querySelectorAll('img').forEach(function(el) {
+            if (el.closest('.mermaid') || el.closest('table') || el.closest('pre')) return;
+            makeZoomable(el, true);
+        });
+        document.querySelectorAll('table').forEach(function(el) { makeZoomable(el, false); });
+        document.querySelectorAll('pre').forEach(function(el) { makeZoomable(el, false); });
+    }
+    function setupMermaid() {
+        document.querySelectorAll('.mermaid').forEach(function(el) {
+            if (el.querySelector('svg')) makeZoomable(el, false);
+        });
+    }
+
+    setupCommon();
+    if (typeof mermaid !== 'undefined') {
+        mermaid.run().then(setupMermaid).catch(setupMermaid);
+    }
+})();
+</script>
+
+</body></html>
