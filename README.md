@@ -29,8 +29,10 @@ This extreme statistical distortion (an average of 17 page-views per unique visi
 
 **Conclusion:** The gatekeepers do not just filter software products; they actively censor the empirical research that exposes their economic and social manipulation.
 
-
 #
+# LISTINGS & FEEDS
+Note: We will remove all static listings from GitHub and replace all the links with outsourced dynamic links.
+
 ## Monthly FEEDS EXAMPLE
 An example of a monthly release feed (July 2026)
 
