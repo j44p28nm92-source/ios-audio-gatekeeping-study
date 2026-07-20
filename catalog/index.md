@@ -12,7 +12,7 @@ It is critical to note that the *Real-Time Capture* of this study initiated in *
 **Analytical Shift:** Instead of a retrospective historical review, this database serves as a live, uncorrupted forensic laboratory. It documents the ongoing, day-by-day de-professionalization and structural erosion of the iOS audio market as it happens.
 
 
-- [Yearly Report 2026](./Yearly%202026.md)
+- [Yearly Report 2026](https://auv3.digitster.com/catalog.php?mode=2026)
 - [Yearly Report 2025](./Yearly%202025.md)
 - [Yearly Report 2024](./Yearly%202024.md)
 - [Yearly Report 2023](./Yearly%202023.md)
