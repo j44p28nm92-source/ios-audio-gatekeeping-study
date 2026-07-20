@@ -34,13 +34,13 @@ This extreme statistical distortion (an average of 17 page-views per unique visi
 Note: We will remove all static listings from GitHub and replace all the links with outsourced dynamic lists and search engine feeds. Some examples are here below.
 
 #
-## Monthly FEEDS EXAMPLE
+## Monthly FEEDS Example
 An example of a monthly release feed (July 2026)
 
 [July 2026 AUv3 Listing](https://auv3.digitster.com/catalog.php?mode=2026-07)
 
 #
-## Example of YEARLY LISTING
+## Example of YEARLY Listing
 We are currently monitoring daily feeds from the App Store for all music apps to generate feeds. This is essential because more and more providers are filtering data to control and exclude releases. This may be for technical reasons, but most likely these gatekeepers are only publishing and promoting what's on their own agenda.
 
 [AudioUnit Releases in 2026](https://auv3.digitster.com/catalog.php?mode=2026)
