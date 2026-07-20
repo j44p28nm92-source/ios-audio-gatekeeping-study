@@ -31,8 +31,9 @@ This extreme statistical distortion (an average of 17 page-views per unique visi
 
 #
 # LISTINGS & FEEDS
-Note: We will remove all static listings from GitHub and replace all the links with outsourced dynamic links.
+Note: We will remove all static listings from GitHub and replace all the links with outsourced dynamic lists and search engine feeds. Some examples are here below.
 
+#
 ## Monthly FEEDS EXAMPLE
 An example of a monthly release feed (July 2026)
 
