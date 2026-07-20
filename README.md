@@ -49,7 +49,7 @@ We are currently monitoring daily feeds from the App Store for all music apps to
 [Search Engine](https://auv3.digitster.com/?search=JAX)
 
 
-### Listings of FREE Music Apps (including AudioUnits)
+### Listings of FREE AudioUnits
 Note: Many of the apps listed as "FREE" may contain in-app purchases.
 
 [FREE Music & Audio Apps](https://auv3.digitster.com/catalog.php?mode=free)
