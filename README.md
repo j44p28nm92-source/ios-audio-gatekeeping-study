@@ -32,28 +32,27 @@ This extreme statistical distortion (an average of 17 page-views per unique visi
 
 #
 # FEEDS
-A first test feed for latest AUv3 related releases. Please note: This are not just new releases but also updates!
+An example of a monthly release feed (July 2026)
 
-[Latest Music Apps (including AUv3) Feed](./listings/LATEST.md)
+[July 2026 AUv3 Listing](https://auv3.digitster.com/catalog.php?mode=2026-7)
 
 #
 # LISTINGS
-We're starting with a list of AUv3 AudioUnit apps. Please note that general lists are created less frequently. However, we are currently also monitoring daily feeds from the App Store for new music apps to generate feeds. This is essential because more and more providers are filtering data to control and exclude releases. This may be for technical reasons, but most likely these gatekeepers are only publishing and promoting what's on their own agenda.
+We're starting with a list of AUv3 AudioUnit apps. 
+We are currently monitoring daily feeds from the App Store for all music apps to generate feeds. This is essential because more and more providers are filtering data to control and exclude releases. This may be for technical reasons, but most likely these gatekeepers are only publishing and promoting what's on their own agenda.
 
-### An Initial Search for ‚AUv3’
-
-[AUv3 Listing](./listings/AUv3.md)
+[AudioUnit Releases in 2026](https://auv3.digitster.com/catalog.php?mode=2026)
 
 #
-### Listings For Specific Commonly Used Search Terms (General Music Apps)
+### NEW: AudioUnit (AUv3) Search Engine
 
-[Search Term Listing Index](./listings/index.md)
+[Search Engine](https://auv3.digitster.com/?search=JAX)
 
 
 ### Listings of FREE Music Apps (including AudioUnits)
 Note: Many of the apps listed as "FREE" may contain in-app purchases.
 
-[FREE Music & Audio Apps](./listings/FREE.md)
+[FREE Music & Audio Apps](https://auv3.digitster.com/catalog.php?mode=free)
 
 
 # Transparency
@@ -65,7 +64,7 @@ Regarding data collection transparency: All results are generated using Apple's 
 Please also note, that apps meight have applied local availability restrictions, set by the developers.
 
 #
-# YEARLY Catalog Study (AUv3 exclusive)
+# YEARLY Catalogs (AUv3 exclusive)
 
 A retrospective attempt to sort AUv3 plugins by release date: [here](./catalog/index.md)
 .
