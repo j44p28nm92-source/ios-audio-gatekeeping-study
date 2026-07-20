@@ -31,20 +31,19 @@ This extreme statistical distortion (an average of 17 page-views per unique visi
 
 
 #
-# FEEDS
+## MONTHLY FEEDS EXAMPLE
 An example of a monthly release feed (July 2026)
 
 [July 2026 AUv3 Listing](https://auv3.digitster.com/catalog.php?mode=2026-07)
 
 #
-# LISTINGS
-We're starting with a list of AUv3 AudioUnit apps. 
+## EXAMPLE OF YEARLY LISTING
 We are currently monitoring daily feeds from the App Store for all music apps to generate feeds. This is essential because more and more providers are filtering data to control and exclude releases. This may be for technical reasons, but most likely these gatekeepers are only publishing and promoting what's on their own agenda.
 
 [AudioUnit Releases in 2026](https://auv3.digitster.com/catalog.php?mode=2026)
 
 #
-### NEW: AudioUnit (AUv3) Search Engine
+## NEW: AudioUnit (AUv3) Search Engine
 
 [Search Engine](https://auv3.digitster.com/?search=JAX)
 
