@@ -34,7 +34,7 @@ This extreme statistical distortion (an average of 17 page-views per unique visi
 # FEEDS
 An example of a monthly release feed (July 2026)
 
-[July 2026 AUv3 Listing](https://auv3.digitster.com/catalog.php?mode=2026-7)
+[July 2026 AUv3 Listing](https://auv3.digitster.com/catalog.php?mode=2026-07)
 
 #
 # LISTINGS
