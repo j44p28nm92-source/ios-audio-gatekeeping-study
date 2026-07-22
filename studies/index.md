@@ -7,6 +7,11 @@
 #
 # NEW STUDIES: 
 In preparation: Study 2: Algorithmic Asymmetry and Structural Gatekeeping in the Legacy iTunes Search API: An Empirical Analysis of Niche Market Suppression in the iOS Audio Ecosystem [Preview](./study%203.md)
+
+
+#
+## [Study 0: The AudioApp & AUv3 Gatekeeper Report](./study%201.md)
+
 #
 ## [Study 1: The Layman Cartel: Inverse Gatekeeping and Informal Market Regulation in Digital Niche Markets](./study%202.md)
 
@@ -18,10 +23,3 @@ Keywords: Shadow Market Governance, Inverse Gatekeeping, Expertise-Simulation, D
 
 ### ADDENDUM: [The Layman Cartel: Inverse Gatekeeping and Informal Market Regulation in Digital Niche Markets](./study%202%20addendum.md)
 ( Strategic Resilience and Defense Model Against Informal Market Regulation )
-
-.
-.
-.
-
-#
-[Study 0: The AudioApp & AUv3 Gatekeeper Report](./study%201.md)
