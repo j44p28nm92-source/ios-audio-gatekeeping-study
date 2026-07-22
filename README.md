@@ -79,7 +79,7 @@ The initially native macOS Swift app has now a replacement as web based interfac
 
 <img alt="Audio Unit API Search" src="https://github.com/user-attachments/assets/9d05156a-2a0d-4d9d-aa12-e5269c0a88de" />
 
-Please note, that this API search is limited to MUSIC category apps.
+Please note, that this API search is limited to MUSIC category Audio Unit (AUv3) apps.
 
 
 
