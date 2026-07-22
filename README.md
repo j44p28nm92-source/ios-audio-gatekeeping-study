@@ -77,7 +77,7 @@ A retrospective attempt to sort AUv3 plugins by release date: [here](./catalog/i
 ### AudioApp Researcher RT
 The initially native macOS Swift app has now a replacement as web based interface [here](https://auv3.digitster.com/api.php)
 
-<img width="512 * 2" height="413 * 2" alt="Bildschirmfoto 2026-07-22 um 02 27 18" src="https://github.com/user-attachments/assets/9d05156a-2a0d-4d9d-aa12-e5269c0a88de" />
+<img width="1024"  alt="Bildschirmfoto 2026-07-22 um 02 27 18" src="https://github.com/user-attachments/assets/9d05156a-2a0d-4d9d-aa12-e5269c0a88de" />
 
 Please note, that this API search is limited to MUSIC category apps.
 
