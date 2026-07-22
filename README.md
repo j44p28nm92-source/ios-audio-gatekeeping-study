@@ -48,7 +48,7 @@ We are currently monitoring daily feeds from the App Store for all music apps to
 #
 # NEW: AudioUnit (AUv3) Search Engine
 
-[Search Engine](https://auv3.digitster.com/?search=grand520piano)
+[Search Engine](https://auv3.digitster.com/?search=grand%20piano)
 
 
 ## Listings of all FREE AudioUnits
