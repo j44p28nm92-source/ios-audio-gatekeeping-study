@@ -77,20 +77,9 @@ A retrospective attempt to sort AUv3 plugins by release date: [here](./catalog/i
 ### AudioApp Researcher RT
 The initially native macOS Swift app has now a replacement as web based interface [here](https://auv3.digitster.com/api.php)
 
-![image](./AudioApp%20Researcher%20RT.png)
+<img width="512" height="413" alt="Bildschirmfoto 2026-07-22 um 02 27 18" src="https://github.com/user-attachments/assets/9d05156a-2a0d-4d9d-aa12-e5269c0a88de" />
 
-RT version is the realtime search without a global data backend. 
-This Mac app has three main functions. It's based on Apple's official iTunes Search API.
-
-1. Enter a search term and click 'Search'. The data set will then be loaded if results are available.
-2. The explicitly loaded set can be further searched internally by entering new search terms in realtime (RT) without using the button but just typing in new search terms.
-3. The Mouse allowas to select the link and a context menue allowas to directly skip to the Apple AppStore and to call other OS functions.
-
-For example, you can first search for a global term like 'Reverb', click 'Search', and then search for 'Room' or 'Convolution' within the results.
-The search is case Insensive.
-
-( Note: The listings here on the site were generated with AudioApp Researcher PRO, an offline extension based on a large database. )
-
+Please note, that this API search is limited to MUSIC category apps.
 
 
 
