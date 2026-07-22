@@ -74,12 +74,12 @@ A retrospective attempt to sort AUv3 plugins by release date: [here](./catalog/i
 #
 # APPS
 
-### AudioApp Researcher RT
+### Audio App Researcher RT (formerly)
 The initially native macOS Swift app has now a replacement as web based interface [here](https://auv3.digitster.com/api.php)
 
 <img alt="Audio Unit API Search" src="Search%20API.png" />
 
-Please note, that this API search is limited to MUSIC category Audio Unit (AUv3) apps.
+Please note that this API search is limited to MUSIC category Audio Unit (AUv3) apps, so the app must at least have this category defined. However, it is possible to temporarily disable the 'AUv3 Filter', which results in a complete music and audio app search. The results of the official Apple Search API are always limited to a maximum of 200 items, so very exotic search terms will most probably return nothing.
 
 
 
