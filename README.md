@@ -75,7 +75,7 @@ A retrospective attempt to sort AUv3 plugins by release date: [here](./catalog/i
 # APPS
 
 ### AudioApp Researcher RT
-(release in preparation)
+The initially native macOS Swift app has now a replacement as web based interface [here](https://auv3.digitster.com/api.php)
 
 ![image](./AudioApp%20Researcher%20RT.png)
 
